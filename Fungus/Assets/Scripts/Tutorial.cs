@@ -7,6 +7,7 @@ public class Tutorial : MonoBehaviour
     // O metodo Start eh chamado ao criar o objeto com esse script no jogo.
     void Start()
     {
+        
         //Imprimindo um texto no console (costuma aparecer perto da parte que tem os arquivos, o console)
         print("Hello, World!");
 
