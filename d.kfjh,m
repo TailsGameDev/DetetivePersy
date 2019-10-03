@@ -1,0 +1,48 @@
+[33mcommit 2e7c74f8a8a992f6656e5b5442afa0cdb7bd0a2b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Caina C. Caldas <cainacc@hotmail.com>
+Date:   Thu Sep 5 17:05:50 2019 -0300
+
+    menu eh prefab no imita fungus
+
+[33mcommit d46247c242dfdae08d4c9d14fe686185e3b04a5c[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Caina C. Caldas <cainacc@hotmail.com>
+Date:   Thu Sep 5 17:03:08 2019 -0300
+
+     Imita Fungus
+
+[33mcommit a99df4bf449de9586effba8609081319a22a3a30[m[33m ([m[1;31morigin/desbugado[m[33m, [m[1;32mdesbugado[m[33m)[m
+Merge: eba3b97 9860502
+Author: takeshi99 <takeshi.yamashita878@gmail.com>
+Date:   Fri Aug 23 14:27:42 2019 -0300
+
+    Merge branch 'master' of https://github.com/kkaldas/Fungus
+
+[33mcommit 9860502693df0fdb49cb448fe43d9c1a9cb06c88[m
+Author: Caina C. Caldas <cainacc@hotmail.com>
+Date:   Thu Aug 22 15:53:38 2019 -0300
+
+    menu e say
+
+[33mcommit eba3b97edf10e40915a03b0d9cb0a84200a07218[m
+Author: takeshi99 <takeshi.yamashita878@gmail.com>
+Date:   Tue Aug 20 17:12:11 2019 -0300
+
+    Say dialog atualizado
+
+[33mcommit 0bd0eb2af23c2e67fcc8c06bda933525f500466e[m
+Author: takeshi99 <takeshi.yamashita878@gmail.com>
+Date:   Fri Aug 16 14:36:13 2019 -0300
+
+    abri unity
+
+[33mcommit d8f76d9e9f5ba95bfcbf18102805ed6bec782f73[m
+Author: takeshi99 <takeshi.yamashita878@gmail.com>
+Date:   Fri Aug 16 14:23:34 2019 -0300
+
+    Upload Icons
+
+[33mcommit 275ae52911fab6f53b27ffb45c7fe4dee72b6d15[m
+Author: Caina C. Caldas <cainacc@hotmail.com>
+Date:   Thu Aug 15 15:52:38 2019 -0300
+
+    init
