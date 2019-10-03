@@ -12,7 +12,7 @@ public class onCliked : MonoBehaviour
     public Text Bloco;
     private void OnMouseDown()
     {
-        ObjDados.SetDados(Descriçao,Img);
+        //ObjDados.SetDados(Descriçao,Img);
         cnvas.SetActive(true);
         cnvas.SendMessage("Escreve",Descriçao);
         if (japrintado == false)

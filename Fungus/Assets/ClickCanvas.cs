@@ -28,10 +28,12 @@ public class ClickCanvas : MonoBehaviour
         
 
     }
+    /*
     public void Escreve(DadosCanvas dados) {
 
         this.texto.text = dados.Descricao;
         this.ImagemProva.sprite = dados.Img;
 
     }
+    */
 }

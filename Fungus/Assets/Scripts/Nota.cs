@@ -11,6 +11,7 @@ public class Nota : MonoBehaviour
 
     public void InsereNoBloco () {
         bloco.text = bloco.text + "\n" + titulo + "\n" + texto;
+        TextoDoBloco.textoDoBloco = bloco.text;
         gameObject.SetActive(false);
     }
 }
