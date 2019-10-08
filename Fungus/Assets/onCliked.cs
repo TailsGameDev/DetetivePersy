@@ -2,31 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class onCliked : MonoBehaviour
 {
+    bool japrintado = false;
     public string Descriçao = "Descriçao do objeto";
     public GameObject cnvas;
-    public Sprite Img;
-    DadosCanvas ObjDados = new DadosCanvas();
+    public Text Bloco;
     private void OnMouseDown()
     {
-        ObjDados.SetDados(Descriçao,Img);
+        //ObjDados.SetDados(Descriçao,Img);
         cnvas.SetActive(true);
-        cnvas.SendMessage("Escreve", ObjDados);
-
-    }
-}
-//classe para enviar os dados para o canvas
-public class DadosCanvas
-{
-    public  string Descricao;
-    public Sprite Img;
-
-    public void SetDados (string Desc,Sprite ImagemProva) {
-        this.Descricao = Desc;
-        this.Img = ImagemProva;
-
+        cnvas.SendMessage("Escreve",Descriçao);
+        if (japrintado == false)
+        { 
+            Bloco.text = Bloco.text + "\n" + Descriçao;
+        }
+        this.gameObject.SetActive(false);
+        japrintado = true;
     }
 
 }
