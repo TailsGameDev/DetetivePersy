@@ -10,8 +10,10 @@ public class dedução : MonoBehaviour
     public GameObject prova2;
     // Start is called before the first frame update
     void Start()
-    {
-        if (prova1.deducao == prova2.deducao)
+   {
+   //  if (prova1.deducao == prova2.deducao)
+     //   {
+       // }
     }
 
     // Update is called once per frame
