@@ -15,6 +15,11 @@ public class ControleBOtao : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Pause.enabled = true;
+            Time.timeScale = 0f;
+        }
         
     }
     public void Reume() {
@@ -23,7 +28,9 @@ public class ControleBOtao : MonoBehaviour
 
     }
     public void Sair() {
-
+        Time.timeScale = 1f;
+      //carregar menu principal  SceneManager.LoadScene("Cena01");
+        Pause.enabled = false;
     }
     
 }

@@ -24,7 +24,7 @@ public class TextoDoBloco : MonoBehaviour
 
     List<string> GetAleatorios (int num) {
         string[] r = new string[num];
-
+ 
         List<string>myTitulos = new List<string>(); //criando clone da lista de titulos
         myTitulos.AddRange(titulos);
 
