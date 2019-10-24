@@ -2061,18 +2061,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 454.64297, y: 173.9054}
+  scrollPos: {x: 292.27374, y: 69.18516}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 347
-  zoom: 0.34000045
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1171767261}
   selectedCommands: []
   variables:
   - {fileID: 1171767196}
@@ -2140,7 +2141,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 355.62848
     y: 77.01462
-    width: 132.35283
+    width: 138.60757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2264,7 +2265,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 446.61765
     y: 6.684799
-    width: 120.58814
+    width: 122.15188
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2304,7 +2305,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 272.77118
     y: 5.585907
-    width: 126.47049
+    width: 127.21517
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2989,7 +2990,7 @@ MonoBehaviour:
     stringVal: 
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 0
   easeType: 2
   loopType: 0
   stopPreviousTweens: 0
@@ -3074,7 +3075,7 @@ MonoBehaviour:
     stringVal: 
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 0
   easeType: 2
   loopType: 0
   stopPreviousTweens: 0
@@ -3342,7 +3343,7 @@ MonoBehaviour:
     stringVal: 
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 0
   easeType: 2
   loopType: 0
   stopPreviousTweens: 0
