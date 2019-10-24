@@ -13,13 +13,14 @@ public class TextoDoBloco : MonoBehaviour
         GetComponent<Text>().text = textoDoBloco;
     }
 
-    private void OnEnable () {
-        printList(GetAleatorios(5));
-    }
-
     //essa função é mais uma demonstração de como ver se alguma evidencia estah no bloco
     bool ContemNoBloco (string tituloEvidencia) {
         return textoDoBloco.Contains(tituloEvidencia + ':');
+    }
+
+    /*
+    private void OnEnable () {
+        printList(GetAleatorios(5));
     }
 
     List<string> GetAleatorios (int num) {
@@ -52,6 +53,7 @@ public class TextoDoBloco : MonoBehaviour
         for (int i = 0 ; i < list.Count ; i++) {
             r += list[i] + "; ";
         }
-        print(r);
+        //print(r);
     }
+    */
 }

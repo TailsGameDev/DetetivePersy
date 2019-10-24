@@ -216,6 +216,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393a190714cebf94489ebfd135606213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  titulo: 
+  texto: 
+  bloco: {fileID: 0}
 --- !u!114 &112482846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,6 +360,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393a190714cebf94489ebfd135606213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  titulo: 
+  texto: 
+  bloco: {fileID: 0}
 --- !u!114 &131395450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -592,6 +598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393a190714cebf94489ebfd135606213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  titulo: nota
+  texto: txt nota
+  bloco: {fileID: 353229468}
 --- !u!114 &628353306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -682,6 +691,98 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &690006785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 690006786}
+  - component: {fileID: 690006788}
+  - component: {fileID: 690006787}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &690006786
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690006785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1311728616}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0.0000038146973}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &690006787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690006785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Atividade:\r\nSistema de Dedu\xE7\xE3o do jogo\r\n\r\nImagine o seguinte
+    di\xE1logo:\r\n\r\n\r\n---- in\xEDcio di\xE1logo\r\n\r\n- seuSuperior: \"Eu n\xE3o
+    sei quem pode ser culpado\"\r\n(abrir menu para escolher o q tu vai responder)\r\nsuas
+    op\xE7\xF5es:\r\n1: verdade, n\xE3o temos como saber\r\n2: eu acho que foi a Sonya\r\n3:
+    \"Sistema de Dedu\xE7\xE3o\"\r\n(se o jogador clica em 1 e 2, chamar outros Say
+    quaisquer)\r\n(se o jogador escolher 3, ativar o sistema de dedu\xE7\xE3o\r\nque
+    voc\xEA deve desenvolver)\r\n\r\n---- fim di\xE1logo\r\n\r\nquando o seu sistema
+    de dedu\xE7\xE3o for ativado, o\r\njogador deve, de alguma forma, selecionar alguma\r\ndas
+    evid\xEAncias do bloco e comparar com uma\r\nevid\xEAncia espec\xEDfica.\r\nCaso
+    a slu\xE7\xE3o que o jogador selecionar for igual\r\n\xE0 solu\xE7\xE3o espec\xEDfica
+    requerida, o jogador volta\r\npara o di\xE1logo descrito acima, mas com uma nova
+    op\xE7\xE3o,\r\npor exemplo: \"de acordo comm a explos\xE3o que ouvimos, podemos\r\nconcluir
+    que o culpado \xE9 o Franco\"\r\nCaso o jogador escolher outra evid\xEAncia, volta
+    para\r\no di\xE1logo no mesmo estado que ele foi descrito inicialmente.\r\n"
+--- !u!222 &690006788
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690006785}
+  m_CullTransparentMesh: 0
 --- !u!1001 &703755489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1046,6 +1147,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393a190714cebf94489ebfd135606213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  titulo: nota 1
+  texto: txt nota 1
+  bloco: {fileID: 353229468}
 --- !u!114 &777286330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1199,8 +1303,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393a190714cebf94489ebfd135606213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  titulo: tituloDaNota3
-  texto: textoDaNota
+  titulo: nota 3
+  texto: txt nota 3
   bloco: {fileID: 353229468}
 --- !u!114 &847992348
 MonoBehaviour:
@@ -1355,6 +1459,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393a190714cebf94489ebfd135606213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  titulo: 
+  texto: 
+  bloco: {fileID: 0}
 --- !u!114 &1007285423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1496,6 +1603,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393a190714cebf94489ebfd135606213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  titulo: 
+  texto: 
+  bloco: {fileID: 0}
 --- !u!114 &1019405329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,6 +1826,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393a190714cebf94489ebfd135606213, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  titulo: nota 2
+  texto: txt nota 2
+  bloco: {fileID: 353229468}
 --- !u!114 &1139364411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1893,6 +2006,7 @@ RectTransform:
   - {fileID: 847992345}
   - {fileID: 1004229987}
   - {fileID: 800608431}
+  - {fileID: 690006786}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2103,6 +2217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: blocoDeNotas
       objectReference: {fileID: 0}
+    - target: {fileID: 973375457289554475, guid: c859dd3ec36dc9f468f96c2c37cb5951,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 973375457289554474, guid: c859dd3ec36dc9f468f96c2c37cb5951,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2213,6 +2332,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 800608430}
+    - target: {fileID: 973375456571377107, guid: c859dd3ec36dc9f468f96c2c37cb5951,
+        type: 3}
+      propertyPath: m_Name
+      value: textoDo Bloco
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c859dd3ec36dc9f468f96c2c37cb5951, type: 3}
 --- !u!1 &4669118943563408153
@@ -2361,6 +2485,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BlocoBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841835888431981552, guid: 7ddeaf88eb073d14eadf593246d9f87e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4841835888431981553, guid: 7ddeaf88eb073d14eadf593246d9f87e,
         type: 3}
