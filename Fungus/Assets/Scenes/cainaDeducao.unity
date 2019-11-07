@@ -1288,7 +1288,7 @@ MonoBehaviour:
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 0
-  blockName: inicio
+  blockName: A_deduzir
   description: 
   eventHandler: {fileID: 1531799022}
   commandList:
@@ -1309,11 +1309,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 51.582474, y: -69.08739}
+  scrollPos: {x: -41.782288, y: -14.204226}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 377
-  zoom: 0.9100001
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1321,9 +1321,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1531799037}
-  selectedCommands:
-  - {fileID: 1531799044}
+  - {fileID: 1531799023}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1665,7 +1664,7 @@ MonoBehaviour:
   - {fileID: 1531799044}
 --- !u!114 &1531799038
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1823,7 +1822,7 @@ MonoBehaviour:
   - {fileID: 1531799039}
 --- !u!114 &1531799044
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
