@@ -1439,8 +1439,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD:Fungus/Assets/Scenes/Cena_2.4_FIM.unity
+    x: 261
+    y: 66
+=======
     x: 273.55313
     y: 80.617035
+>>>>>>> 7c5a4d27f6c73cd054019f33559f7f03e317d1de:Fungus/Assets/Scenes/2.4 (Fim).unity
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
