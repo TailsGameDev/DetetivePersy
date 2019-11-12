@@ -1111,8 +1111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 281
-    y: 87
+    x: 261
+    y: 66
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
