@@ -5,13 +5,15 @@ using UnityEngine.UI;
 
 public class ClickCanvas : MonoBehaviour
 {
-    public GameObject prova;
+   
     public GameObject cnvas;
     public Text texto;
+    public Image ImagemProva;
+    
 
     private void OnMouseDown()
     {
-        prova.SetActive(true);
+
         cnvas.SetActive(false);
     }
 
@@ -21,13 +23,17 @@ public class ClickCanvas : MonoBehaviour
         
     }
     public void Botao() {
-        prova.SetActive(true);
+        
         cnvas.SetActive(false);
         
 
     }
-    public void Escreve(string texto) {
-        this.texto.text = texto;
+    /*
+    public void Escreve(DadosCanvas dados) {
+
+        this.texto.text = dados.Descricao;
+        this.ImagemProva.sprite = dados.Img;
 
     }
+    */
 }
