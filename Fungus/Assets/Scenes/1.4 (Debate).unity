@@ -418,6 +418,87 @@ GameObject:
   - component: {fileID: 1015769749}
   - component: {fileID: 1015769735}
   - component: {fileID: 1015769739}
+  - component: {fileID: 1015769759}
+  - component: {fileID: 1015769760}
+  - component: {fileID: 1015769761}
+  - component: {fileID: 1015769769}
+  - component: {fileID: 1015769763}
+  - component: {fileID: 1015769762}
+  - component: {fileID: 1015769764}
+  - component: {fileID: 1015769765}
+  - component: {fileID: 1015769766}
+  - component: {fileID: 1015769767}
+  - component: {fileID: 1015769768}
+  - component: {fileID: 1015769772}
+  - component: {fileID: 1015769771}
+  - component: {fileID: 1015769770}
+  - component: {fileID: 1015769778}
+  - component: {fileID: 1015769777}
+  - component: {fileID: 1015769776}
+  - component: {fileID: 1015769775}
+  - component: {fileID: 1015769773}
+  - component: {fileID: 1015769774}
+  - component: {fileID: 1015769804}
+  - component: {fileID: 1015769803}
+  - component: {fileID: 1015769802}
+  - component: {fileID: 1015769801}
+  - component: {fileID: 1015769800}
+  - component: {fileID: 1015769799}
+  - component: {fileID: 1015769794}
+  - component: {fileID: 1015769795}
+  - component: {fileID: 1015769796}
+  - component: {fileID: 1015769797}
+  - component: {fileID: 1015769798}
+  - component: {fileID: 1015769793}
+  - component: {fileID: 1015769790}
+  - component: {fileID: 1015769792}
+  - component: {fileID: 1015769791}
+  - component: {fileID: 1015769789}
+  - component: {fileID: 1015769788}
+  - component: {fileID: 1015769787}
+  - component: {fileID: 1015769786}
+  - component: {fileID: 1015769785}
+  - component: {fileID: 1015769784}
+  - component: {fileID: 1015769783}
+  - component: {fileID: 1015769782}
+  - component: {fileID: 1015769779}
+  - component: {fileID: 1015769780}
+  - component: {fileID: 1015769781}
+  - component: {fileID: 1015769815}
+  - component: {fileID: 1015769813}
+  - component: {fileID: 1015769814}
+  - component: {fileID: 1015769811}
+  - component: {fileID: 1015769812}
+  - component: {fileID: 1015769810}
+  - component: {fileID: 1015769809}
+  - component: {fileID: 1015769808}
+  - component: {fileID: 1015769807}
+  - component: {fileID: 1015769805}
+  - component: {fileID: 1015769806}
+  - component: {fileID: 1015769818}
+  - component: {fileID: 1015769817}
+  - component: {fileID: 1015769816}
+  - component: {fileID: 1015769827}
+  - component: {fileID: 1015769826}
+  - component: {fileID: 1015769824}
+  - component: {fileID: 1015769825}
+  - component: {fileID: 1015769823}
+  - component: {fileID: 1015769821}
+  - component: {fileID: 1015769822}
+  - component: {fileID: 1015769820}
+  - component: {fileID: 1015769819}
+  - component: {fileID: 1015769832}
+  - component: {fileID: 1015769833}
+  - component: {fileID: 1015769831}
+  - component: {fileID: 1015769830}
+  - component: {fileID: 1015769828}
+  - component: {fileID: 1015769829}
+  - component: {fileID: 1015769837}
+  - component: {fileID: 1015769838}
+  - component: {fileID: 1015769836}
+  - component: {fileID: 1015769835}
+  - component: {fileID: 1015769834}
+  - component: {fileID: 1015769839}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -438,11 +519,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 140.29285, y: 71.38926}
+  scrollPos: {x: 23.463036, y: 66.74577}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 382
-  zoom: 0.64000034
+  zoom: 0.6399999
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -450,8 +531,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1015769655}
-  selectedCommands: []
+  - {fileID: 1015769587}
+  selectedCommands:
+  - {fileID: 1015769839}
   variables: []
   description: 
   stepPause: 0
@@ -479,7 +561,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Novato, investigue o lugar.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -504,9 +586,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 69.98508
+    x: 59.270798
     y: 70
-    width: 142.49994
+    width: 126.56251
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -515,6 +597,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1015769600}
   commandList:
+  - {fileID: 1015769839}
   - {fileID: 1015769599}
   - {fileID: 1015769598}
   - {fileID: 1015769597}
@@ -551,7 +634,7 @@ MonoBehaviour:
   storyText: "Ok, eu irei ver os m\xE9dicos na ambul\xE2ncia e pegar informa\xE7\xF5es
     dos dois.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -578,7 +661,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Entendo\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -605,7 +688,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Eles est\xE3o na ambul\xE2ncia l\xE1 na rua."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -632,7 +715,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Pelo visto, Noah Momais e Dhuran \xC1ticka."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -659,7 +742,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Falando em convidados da festa, quem foi que desmaiou?...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -686,7 +769,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Fora dos limites para os convidados e/ou empregados daqui.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -713,7 +796,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u2026 Pera n\xE3o podemos ir l\xE1?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -740,7 +823,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "O Sal\xE3o de Dan\xE7a e Cozinha \xE9 fora dos limites."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -768,7 +851,7 @@ MonoBehaviour:
   storyText: ' Obviamente no momento que entramos e vimos os dois desmaiados, colocamos
     as fitas e selamos o local.'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -795,7 +878,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Hm\u2026 os policiais j\xE1 colocaram as fitas\u2026 "
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -823,7 +906,7 @@ MonoBehaviour:
   storyText: "( Esse lugar \xE9 bem mais chique do que eu pensava\u2026 se voc\xEA
     tirar as mesas e plantas ca\xEDdas\u2026 )\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -850,7 +933,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "( Wow\u2026 )"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -889,9 +972,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 38.82315
-    y: 243.69148
-    width: 193.74992
+    x: 30.71505
+    y: 203.15096
+    width: 171.87502
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -934,9 +1017,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 20.918331
-    y: 190.39926
-    width: 276.24988
+    x: -386.9813
+    y: 76.278404
+    width: 242.18752
     height: 40
   tint: {r: 0.16220188, g: 0.764151, b: 0.37442034, a: 1}
   useCustomTint: 1
@@ -959,9 +1042,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 29.189552
-    y: 138.17757
-    width: 221.24991
+    x: -325.6644
+    y: -31.542145
+    width: 193.75002
     height: 40
   tint: {r: 0.16220188, g: 0.764151, b: 0.37442034, a: 1}
   useCustomTint: 1
@@ -1000,7 +1083,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ( Talvez dar uma olhada aonde os dois foram encontrados desmaiados? )
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1027,7 +1110,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ". . .\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1054,7 +1137,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ok\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1108,7 +1191,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Ok Chefe!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1135,7 +1218,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Vamos l\xE1!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1162,7 +1245,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\xC9\u2026 acho que podemos fazer isso."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1189,7 +1272,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Hm\u2026 Deixa ver\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1216,7 +1299,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ent\xE3o talvez reconstruir a cena Seja a melhor op\xE7\xE3o."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1243,7 +1326,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\xC9\u2026 Parece a chefe."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1270,7 +1353,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u201CEnt\xE3o para de encher o saco dizendo que \xE9 o thomas.\u201D"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1298,7 +1381,7 @@ MonoBehaviour:
   storyText: " \u201C Vamos por partes, vamos reconstruir a cena do crime e ter certeza
     do que aconteceu\u201D\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1325,7 +1408,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Acho que a Shee tinha dito algo assim uma vez.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1352,7 +1435,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Hmmm...\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1380,7 +1463,7 @@ MonoBehaviour:
   storyText: " Mas n\xE3o tem nada realmente que mostre algo que causa pessoas para
     desmaiarem.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1408,7 +1491,7 @@ MonoBehaviour:
   storyText: "A n\xE3o ser que o criminoso seja um completo imbecil e deixe uma carta
     dizendo o plano dele, voc\xEA tem que juntar as pistas e descobrir o que aconteceu."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1435,7 +1518,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Am?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1462,7 +1545,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\xD3bvio."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1489,7 +1572,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Tipo\u2026 N\xE3o tem nada aqui que mostre o que aconteceu exatamente.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1516,7 +1599,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u2026 ?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1543,7 +1626,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Eu\u2026 n\xE3o tenho certeza?...\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1570,7 +1653,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "T\xE1 senhor detetive, o que foi que aconteceu aqui?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1597,7 +1680,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Tem mais nada aqui que me chame aten\xE7\xE3o eu acho\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1624,7 +1707,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "E\u2026 Anotado.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1701,7 +1784,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "E \xE9 assim que descobrimos quem poderia ter feito eles desmaiarem.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1728,7 +1811,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Como que algu\xE9m faz outra pessoa desmaiar?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1755,7 +1838,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "N\xE3o \xE9 muito dif\xEDcil, \xE9 s\xF3 dar um so-\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1782,7 +1865,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Voltei.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1809,7 +1892,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "AH!\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1836,7 +1919,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Voc\xEAs encontraram algo \xFAtil?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1864,7 +1947,7 @@ MonoBehaviour:
   storyText: ' Sim chefe! Fizemos um mapa de onde as pessoas estavam antes, durante
     e depois dos eventos.'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1891,7 +1974,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Usando pistas e testemunhas, logicamente.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1918,7 +2001,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Hm\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1945,7 +2028,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Bom trabalho voc\xEAs dois."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1972,7 +2055,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Consegui algumas informa\xE7\xF5es tamb\xE9m, sobre os que desmaiaram.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1999,7 +2082,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Que tipo de informa\xE7\xE3o?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2027,7 +2110,7 @@ MonoBehaviour:
   storyText: "Bem\u2026 Al\xE9m dos nomes deles, descobri a rela\xE7\xE3o deles com
     essa festa.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2054,7 +2137,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Noah \xE9 o anfitri\xE3o da festa, e Dhuran a planejadora."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2081,7 +2164,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Nada al\xE9m disso.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2108,7 +2191,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Voc\xEA ficou esse tempo todo fora para descobrir s\xF3 isso?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2135,7 +2218,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Bem, isso e tirar fotos dos locais.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2162,7 +2245,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Falando nisso, Cheguem pro lado.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2189,7 +2272,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Eu acho\u2026 que \xE9 isso\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2239,9 +2322,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 391.95114
-    y: 101.91238
-    width: 139.99995
+    x: 57.491867
+    y: 634.53796
+    width: 128.125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2278,9 +2361,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 247.71835
-    y: 252.88266
-    width: 124.99996
+    x: -551.798
+    y: 3.2688599
+    width: 120
     height: 40
   tint: {r: 0.16220188, g: 0.764151, b: 0.37442034, a: 1}
   useCustomTint: 1
@@ -2303,8 +2386,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 397.7181
-    y: 184.12296
+    x: -563.96027
+    y: 123.69829
     width: 120
     height: 40
   tint: {r: 0.16220188, g: 0.764151, b: 0.37442034, a: 1}
@@ -2328,14 +2411,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 396.35483
-    y: 251.46725
+    x: 50.312424
+    y: 400.59866
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 53
-  blockName: recriacao
+  blockName: "recria\xE7\xE3o"
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2373,9 +2456,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 576.62683
-    y: -2.2210388
-    width: 201.24992
+    x: 255.19843
+    y: 512.065
+    width: 178.12502
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2391,6 +2474,86 @@ MonoBehaviour:
   - {fileID: 1015769730}
   - {fileID: 1015769731}
   - {fileID: 1015769732}
+  - {fileID: 1015769761}
+  - {fileID: 1015769760}
+  - {fileID: 1015769759}
+  - {fileID: 1015769769}
+  - {fileID: 1015769768}
+  - {fileID: 1015769767}
+  - {fileID: 1015769766}
+  - {fileID: 1015769765}
+  - {fileID: 1015769764}
+  - {fileID: 1015769762}
+  - {fileID: 1015769772}
+  - {fileID: 1015769763}
+  - {fileID: 1015769771}
+  - {fileID: 1015769770}
+  - {fileID: 1015769778}
+  - {fileID: 1015769777}
+  - {fileID: 1015769776}
+  - {fileID: 1015769775}
+  - {fileID: 1015769774}
+  - {fileID: 1015769773}
+  - {fileID: 1015769804}
+  - {fileID: 1015769803}
+  - {fileID: 1015769802}
+  - {fileID: 1015769801}
+  - {fileID: 1015769800}
+  - {fileID: 1015769799}
+  - {fileID: 1015769798}
+  - {fileID: 1015769797}
+  - {fileID: 1015769796}
+  - {fileID: 1015769795}
+  - {fileID: 1015769794}
+  - {fileID: 1015769793}
+  - {fileID: 1015769792}
+  - {fileID: 1015769791}
+  - {fileID: 1015769790}
+  - {fileID: 1015769789}
+  - {fileID: 1015769788}
+  - {fileID: 1015769787}
+  - {fileID: 1015769786}
+  - {fileID: 1015769785}
+  - {fileID: 1015769784}
+  - {fileID: 1015769783}
+  - {fileID: 1015769782}
+  - {fileID: 1015769781}
+  - {fileID: 1015769780}
+  - {fileID: 1015769779}
+  - {fileID: 1015769815}
+  - {fileID: 1015769814}
+  - {fileID: 1015769813}
+  - {fileID: 1015769812}
+  - {fileID: 1015769811}
+  - {fileID: 1015769810}
+  - {fileID: 1015769809}
+  - {fileID: 1015769808}
+  - {fileID: 1015769807}
+  - {fileID: 1015769806}
+  - {fileID: 1015769805}
+  - {fileID: 1015769818}
+  - {fileID: 1015769817}
+  - {fileID: 1015769816}
+  - {fileID: 1015769827}
+  - {fileID: 1015769826}
+  - {fileID: 1015769825}
+  - {fileID: 1015769824}
+  - {fileID: 1015769823}
+  - {fileID: 1015769822}
+  - {fileID: 1015769821}
+  - {fileID: 1015769820}
+  - {fileID: 1015769819}
+  - {fileID: 1015769833}
+  - {fileID: 1015769832}
+  - {fileID: 1015769831}
+  - {fileID: 1015769830}
+  - {fileID: 1015769829}
+  - {fileID: 1015769828}
+  - {fileID: 1015769838}
+  - {fileID: 1015769837}
+  - {fileID: 1015769836}
+  - {fileID: 1015769835}
+  - {fileID: 1015769834}
 --- !u!114 &1015769656
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2405,9 +2568,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 600.96045
-    y: 105.628876
-    width: 144.99994
+    x: 261.1649
+    y: 740.32294
+    width: 129.6875
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2539,7 +2702,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ha ha Polly.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2566,7 +2729,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Por que voc\xEA ta tirando fotos?..."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2593,7 +2756,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Parte do trabalho, assim sabemos que ningu\xE9m mexeu na cena."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2620,7 +2783,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Agora dever\xEDamos ir\u2026\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2647,7 +2810,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Prender o culpado.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2674,7 +2837,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Am?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2701,7 +2864,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "S\xF3 olhe a recria\xE7\xE3o do crime.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2728,7 +2891,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "A \xFAnica pessoa poss\xEDvel de ter causado os desmaios \xE9 a Sonnya.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2755,7 +2918,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Voc\xEA n\xE3o sabe exatamente."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2783,7 +2946,7 @@ MonoBehaviour:
   storyText: "Olhe de novo, nem sabemos aonde a Dhuran estava durante a maioria da
     festa.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2810,7 +2973,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Precisamos continuar investigando.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2837,7 +3000,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " A qual \xE9, eu podia ter posado aqui.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2864,7 +3027,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ah, sim claro.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2891,7 +3054,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ":Caso Fechado, foi a Sonnya como voc\xEA disse.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2918,7 +3081,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Am?...
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2945,7 +3108,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Hora de ir embora ent\xE3o, bora novato.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2972,7 +3135,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Hora de levar esta criminosa pra cadeia.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2999,7 +3162,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Caso fechado ent\xE3o.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3026,7 +3189,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Voc\xEA ganhou.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3053,7 +3216,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Bem, eu n\xE3o tenho mais nenhum argumento.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3080,7 +3243,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " . . .\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3107,7 +3270,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ' E foi isso que ocorreu!'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3135,7 +3298,7 @@ MonoBehaviour:
   storyText: "Sim, ela foi ver se ele estava bem, e foi ent\xE3o que a Sonnya atacou
     ela tamb\xE9m."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3162,7 +3325,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ent\xE3o ela estava na pista ap\xF3s o Noah cair?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3189,7 +3352,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Eles n\xE3o viram ela na pista de dan\xE7a por causa do apag\xE3o.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3216,7 +3379,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " ( Mostrar evid\xEAncias de um apag\xE3o )\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3243,7 +3406,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Aconteceu algo, logo ap\xF3s Noah cair:\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3270,7 +3433,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Por\xE9m!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3297,7 +3460,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Ent\xE3o, acredito que nesta hora ela estaria possivelmente nas mesas."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3324,7 +3487,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Caso Dhuran estivesse l\xE1, acredito que pelo menos uma pessoa mencionaria.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3352,7 +3515,7 @@ MonoBehaviour:
   storyText: "\u201CTodo mundo disse a mesma coisa, Sonnya e Noah estavam dan\xE7ando
     na pista de dan\xE7a\u201D\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3379,7 +3542,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Voc\xEA mesmo disse."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3406,7 +3569,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Por que?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3433,7 +3596,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Esta suposi\xE7\xE3o \xE9 est\xFApida."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3460,7 +3623,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ap\xF3s ter atacado Noah, Sonnya atacou a Dhuran."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3487,7 +3650,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Simples, Dhuran estava na pista de dan\xE7a quando a festa come\xE7ou.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3514,7 +3677,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Bem\u2026\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3541,7 +3704,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " O que voc\xEA sugere?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3568,7 +3731,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Se esqueceu? Dhuran foi encontrada desmaiada tamb\xE9m.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3595,7 +3758,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Que?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3622,7 +3785,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " E como a Dhuran se encaixa nisso a\xED?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3649,7 +3812,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Am-ham.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3676,7 +3839,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Algo como, Sonnya atacando o Noah.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3703,7 +3866,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ou seja, um dos dois fez algo que o outro n\xE3o esperava.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3757,7 +3920,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: O que poderia ter causado essa coisa cair?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3785,7 +3948,7 @@ MonoBehaviour:
   storyText: " Os dois estavam dan\xE7ando e\u2026 em algum momento algo caiu, causando
     essa po\xE7a.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3812,7 +3975,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "( Mostrar po\xE7a na pista de dan\xE7a )\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3840,7 +4003,7 @@ MonoBehaviour:
   storyText: "\xC9 poss\xEDvel que algo caiu durante a dan\xE7a da Sonnya e Noah,
     por causa disso:\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3867,7 +4030,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Bem, tinha algo estranho na pista de dan\xE7a\u2026\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3894,7 +4057,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Al\xE9m dos dois desmaiados.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3921,7 +4084,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Duas pessoas desmaia-
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3948,7 +4111,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Teria alguma prova mostrando que algo ocorreu na pista de dan\xE7a?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3975,7 +4138,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Teoria interessante mas\u2026 "
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4002,7 +4165,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ele desmaiou pois a Sonnya fez algo com ele.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4029,7 +4192,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Mesmo lugar aonde Noah estava\u2026 ou seja\u2026\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4056,7 +4219,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " ( Mostrar pista de dan\xE7a )\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4083,7 +4246,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Bem, quando Noah desmaiou\u2026 Ela estava aqui\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4110,7 +4273,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: " Por que culpar ela?\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4137,7 +4300,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Bem, vamos pela base.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4164,7 +4327,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Am\u2026 eu\u2026 vou tentar chefe.\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4191,7 +4354,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Claro Shee.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4218,7 +4381,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Que tal me convencerem que foi de fato ela?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4245,7 +4408,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Bem, eu acho que dever\xEDamos continuar a investiga\xE7\xE3o."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4272,7 +4435,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Interessante\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4299,7 +4462,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Obviamente, n\xE3o acusarmos algu\xE9m sem provas o suficiente."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4326,7 +4489,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Voc\xEAs acharam evid\xEAncia o suficiente para acusar ela?..."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4353,7 +4516,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\xC9, pela evid\xEAncia que encontramos, parece que foi a Sonnya mesmo."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4380,7 +4543,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Novato, Obviamente a Sonnya \xE9 a culpada."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4407,7 +4570,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Como eu disse Polly, voc\xEA n\xE3o sabe exatamente."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1322673131}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4434,7 +4597,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Temos provas que mostram que foi ela.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4461,7 +4624,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Al\xE9m da recria\xE7\xE3o da cena, obviamente."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4489,7 +4652,7 @@ MonoBehaviour:
   storyText: "Hm\u2026 mas tamb\xE9m temos provas que\u2026 mostra que talvez n\xE3o
     tenha sido ela?...\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4516,7 +4679,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Ugh, vamos ver\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1609983465}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4544,7 +4707,7 @@ MonoBehaviour:
   storyText: "Hm, Polly? eu n\xE3o acho que temos evid\xEAncias o suficiente para
     acusar ela?...\r\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1416903913}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -4569,9 +4732,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 766.19617
-    y: 108.26567
-    width: 164.99994
+    x: 449.86975
+    y: 741.4293
+    width: 145.3125
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4605,7 +4768,7 @@ MonoBehaviour:
   - {fileID: 1015769735}
 --- !u!114 &1015769735
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4713,7 +4876,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769739
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4761,7 +4924,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1015769741
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4788,7 +4951,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769742
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4815,7 +4978,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769743
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4843,7 +5006,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769744
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4870,7 +5033,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769745
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4897,7 +5060,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769746
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4924,7 +5087,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769747
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4951,7 +5114,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769748
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4979,7 +5142,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769749
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5006,7 +5169,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769750
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5033,7 +5196,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769751
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5060,7 +5223,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769752
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5087,7 +5250,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769753
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5114,7 +5277,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769754
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5141,7 +5304,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769755
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5168,7 +5331,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769756
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5195,7 +5358,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769757
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5222,7 +5385,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769758
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5247,6 +5410,2133 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1015769759
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 229
+  indentLevel: 0
+  storyText: Obviamente a Sonnya fez algo com ele.
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769760
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 230
+  indentLevel: 0
+  storyText: "Apenas a Sonnya estava na Pista de dan\xE7a quando Noah desmaiou."
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769761
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 231
+  indentLevel: 0
+  storyText: "Primeiro vamos com o \xF3bvio, ok?"
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769762
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 235
+  indentLevel: 0
+  storyText: "Pois ela estava AQUI quando voc\xEA apareceu\u2026"
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769763
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 234
+  indentLevel: 0
+  storyText: "Ela deveria estar na pista de dan\xE7a para ela ter desmaiado l\xE1."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769764
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 236
+  indentLevel: 0
+  storyText: "De fato\u2026 temos at\xE9 provas que \xE9 PROV\xC1VEL que ela estava
+    l\xE1 nessa hora."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769765
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 237
+  indentLevel: 0
+  storyText: Obviamente a Sonnya fez algo com ele.
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769766
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 238
+  indentLevel: 0
+  storyText: "\xC9 poss\xEDvel que ela estava na pista tamb\xE9m\u2026"
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769767
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 239
+  indentLevel: 0
+  storyText: "Mas\u2026 N\xE3o sabemos aonde a Dhuran estava durante essa hora"
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769768
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 241
+  indentLevel: 0
+  commenterName: "P ( Mostrar posi\xE7\xE3o de Dhuran antes do apag\xE3o)"
+  commentText: 
+--- !u!114 &1015769769
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 233
+  indentLevel: 0
+  storyText: "N\xE3o sei n\xE3o, n\xE3o temos certeza se ela era a \xFAnica l\xE1
+    por que..."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769770
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 244
+  indentLevel: 0
+  storyText: "O que voc\xEA quer dizer?"
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769771
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 243
+  indentLevel: 0
+  storyText: "Voc\xEA acabou de demonstrar o motivo para n\xE3o contar ela como uma
+    suspeita."
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769772
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 242
+  indentLevel: 0
+  commenterName: "P (Mostrar Posi\xE7\xE3o da Dhuran quando a pol\xEDcia chegou )"
+  commentText: 
+--- !u!114 &1015769773
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 249
+  indentLevel: 0
+  storyText: Obrigado Sheery.
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769774
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 251
+  indentLevel: 0
+  commenterName: "P: ( Mostrar informa\xE7\xE3o de Sheery )"
+  commentText: 
+--- !u!114 &1015769775
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 248
+  indentLevel: 0
+  storyText: "Por causa de uma evid\xEAncia que acabamos de receber:"
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769776
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 247
+  indentLevel: 0
+  storyText: Por qual motivo?
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769777
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 246
+  indentLevel: 0
+  storyText: "Mas a pr\xF3pria ideia de que a Sonnya fez algo com eles tamb\xE9m n\xE3o
+    faz sentido."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769778
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 245
+  indentLevel: 0
+  storyText: "Ela estava desmaiada, ela foi outra v\xEDtima, Sonnya  deve ter feito
+    algo com ela tamb\xE9m."
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769779
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 276
+  indentLevel: 0
+  storyText: "Ou seja, ela n\xE3o pode trope\xE7ar em uma mesa e cair."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769780
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 277
+  indentLevel: 0
+  storyText: "A mesa est\xE1 em p\xE9, e n\xE3o tem nenhuma mesa entre esta e a pista
+    de dan\xE7a."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769781
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 278
+  indentLevel: 0
+  storyText: Isso mostra que ela estava sentada nessa mesa a algum momento da festa.
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769782
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 275
+  indentLevel: 0
+  storyText: "Ela era a organizadora da festa, no livro, tinha a programa\xE7\xE3o
+    da festa."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769783
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 274
+  indentLevel: 0
+  commenterName: P:( Mostrar Perfil da Dhuran )
+  commentText: 
+--- !u!114 &1015769784
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 273
+  indentLevel: 0
+  storyText: "O Livro? e por que voc\xEA acha que isso seria dela?"
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769785
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 272
+  indentLevel: 0
+  commenterName: P ( Mostrar Livro )
+  commentText: 
+--- !u!114 &1015769786
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 271
+  indentLevel: 0
+  storyText: 'Por cause de que tinha algo que pertencia a ela naquela mesa:'
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769787
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 270
+  indentLevel: 0
+  storyText: "Aham, e como voc\xEA sabe g\xEAnio?"
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769788
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 269
+  indentLevel: 0
+  storyText: "Eu n\xE3o \u201Cacho\u201D eu \u201Csei\u201D."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769789
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 268
+  indentLevel: 0
+  storyText: "Ata, voc\xEA acha que ela estava na \xDANICA mesa que est\xE1 em p\xE9."
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769790
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 264
+  indentLevel: 0
+  storyText: "Entre ela e a pista de dan\xE7a n\xE3o tem nenhuma mesa para ela trope\xE7ar."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769791
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 267
+  indentLevel: 0
+  commenterName: "P( Mostra mesa em p\xE9 )"
+  commentText: 
+--- !u!114 &1015769792
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 266
+  indentLevel: 0
+  storyText: "Acredito que essa mesa \xE9 a que ela estava sentada"
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769793
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 263
+  indentLevel: 0
+  storyText: Mas!
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769794
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 258
+  indentLevel: 0
+  storyText: "Trope\xE7ou em uma mesa e caiu no ch\xE3o..."
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769795
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 259
+  indentLevel: 0
+  storyText: "Am\u2026 "
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769796
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 260
+  indentLevel: 0
+  storyText: "Ela saiu correndo da mesa e\u2026"
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769797
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 261
+  indentLevel: 0
+  storyText: "Ela viu o Noah desmaiando, e ent\xE3o!"
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769798
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 262
+  indentLevel: 0
+  storyText: "N\xE3o! A Dhuran! ela estava em uma mesa."
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769799
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 257
+  indentLevel: 0
+  storyText: "Com ela voc\xEA quer dizer a Sonnya?"
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769800
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 256
+  indentLevel: 0
+  storyText: "Obviamente, ela estava sentada na mesa e\u2026"
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769801
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 255
+  indentLevel: 0
+  storyText: "Ta, am\u2026 ent\xE3o\u2026\t"
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769802
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 254
+  indentLevel: 0
+  storyText: Acredito que se a Sonnya tivesse feito algo, eles iam encontrar.
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769803
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 253
+  indentLevel: 0
+  storyText: "Os m\xE9dicos n\xE3o acharam como os dois desmaiaram ainda."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769804
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 252
+  indentLevel: 0
+  storyText: Disponha.
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769805
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 288
+  indentLevel: 0
+  storyText: "Ent\xE3o o que voc\xEA acha?"
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769806
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 289
+  indentLevel: 0
+  storyText: "Por\xE9m, na hora que todo mundo ficou em p\xE2nico, ela n\xE3o estava
+    mais l\xE1, pois se ela estivesse ela teria derrubado a mesa tamb\xE9m."
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769807
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 287
+  indentLevel: 0
+  storyText: "Voc\xEA mesmo disse, com o fato do livro estar l\xE1, mostra que a Dhuran
+    estava sentada ali a algum momento da festa."
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769808
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 286
+  indentLevel: 0
+  storyText: Descobrimos?
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769809
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 285
+  indentLevel: 0
+  storyText: Que?
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769810
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 284
+  indentLevel: 0
+  storyText: "obrigada Polly, com essa pergunta n\xF3s descobrimos algo."
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769811
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 282
+  indentLevel: 0
+  storyText: Desisto.
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769812
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 283
+  indentLevel: 0
+  storyText: "\u2026 T\xC1"
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769813
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 280
+  indentLevel: 0
+  storyText: "Ent\xE3o voc\xEA j\xE1 estava errada no come\xE7o do argumento."
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769814
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 281
+  indentLevel: 0
+  storyText: "Caso ela tivesse trope\xE7ado, ca\xEDdo e desmaiado, os m\xE9dicos tamb\xE9m
+    notariam."
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769815
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 279
+  indentLevel: 0
+  storyText: "E como o novato apontou mais cedo quando ele disse que a Sonnya n\xE3o
+    podia ter feito nada com eles pois os m\xE9dicos iriam saber."
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769816
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 293
+  indentLevel: 0
+  commenterName: "P( Adiciona informa\xE7\xE3o )"
+  commentText: 
+--- !u!114 &1015769817
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 292
+  indentLevel: 0
+  storyText: "Precisamos rever a recria\xE7\xE3o da cena do crime ent\xE3o!"
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769818
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 290
+  indentLevel: 0
+  storyText: "Ent\xE3o\u2026"
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769819
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 302
+  indentLevel: 0
+  storyText: "Hm\u2026 fui bem?"
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769820
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 301
+  indentLevel: 0
+  storyText: Pera isso foi um teste?!
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769821
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 299
+  indentLevel: 0
+  storyText: Foi isso que eu fiz.
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769822
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 300
+  indentLevel: 0
+  storyText: "Claro n\xE9 Shee, tudo para fazer o novato chegar na conclus\xE3o certa."
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769823
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 298
+  indentLevel: 0
+  storyText: '...'
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769824
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 296
+  indentLevel: 0
+  storyText: "Logicamente, n\xE3o existe Policiais que prendem pessoas com poucas
+    provas assim."
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769825
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 297
+  indentLevel: 0
+  storyText: "Voc\xEA ficou do lado de querer prender a Sonnya sem prova nenhuma para
+    ensinar o novato como debater."
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769826
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 295
+  indentLevel: 0
+  storyText: Am?
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769827
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 294
+  indentLevel: 0
+  storyText: "Muito obrigada pelo debate Polly.\t"
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769828
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 307
+  indentLevel: 0
+  storyText: "T\xC1 T\xD4 INDO!"
+  description: 
+  character: {fileID: 1413204430900409052}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769829
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 308
+  indentLevel: 0
+  storyText: Am? O QUE FOI?
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769830
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 306
+  indentLevel: 0
+  storyText: POLLY!
+  description: 
+  character: {fileID: 1413204430900409052}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769831
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 305
+  indentLevel: 0
+  storyText: "Ah, sobre a cozinha, cuidado para n\xE3o limpar o-\t"
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769832
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 303
+  indentLevel: 0
+  storyText: "Bem, acho que dever\xEDamos investigar a cozinha agora."
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769833
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 304
+  indentLevel: 0
+  storyText: "Foi sim novato, parab\xE9ns"
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769834
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 313
+  indentLevel: 0
+  storyText: "Inacredit\xE1vel\u2026 "
+  description: 
+  character: {fileID: 1322673131}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769835
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 312
+  indentLevel: 0
+  storyText: "Viu chefe, at\xE9 os policiais se aderiram ao meu jeito de encontrar
+    pessoas."
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769836
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 311
+  indentLevel: 0
+  storyText: Ah ok, tchau
+  description: 
+  character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769837
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 309
+  indentLevel: 0
+  storyText: "\xC9, t\xE3o me chamando, vejo voc\xEAs depois ( See ya~ )."
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769838
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 310
+  indentLevel: 0
+  storyText: Am? O QUE FOI?
+  description: 
+  character: {fileID: 1609983465}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769839
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 314
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1416903913}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1001 &1322673130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5395,6 +7685,83 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6eee93168a967244dbb20146b5e06211,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 24d32716727e603479d302b138235f09,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: d99b95b4cefe06743b19ff9a99bf6e76,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: d918ebf42533f124286cf03985dcf42f,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3ef862291345507438197e3715910768,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 69be14fbd55e2b4429f6e8f585645737,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 977d552883700544d85798f33a8f4442,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: a784d5e35fa8fc14fbe0b55b69d7dc2f,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[8]
+      value: 
+      objectReference: {fileID: 21300000, guid: 63fd3edf6159e1f458d59ad16b3a21c7,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: b3fd9f1ff1c9945408b6d210652e3f5e,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[11]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1ab5f734ec135804b8a2a6df6ef0b716,
+        type: 3}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraits.Array.data[10]
+      value: 
+      objectReference: {fileID: 21300000, guid: c36d10120d02646468b546288e2b19e3,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7675d68b2b895d14e89545d682f7dc31, type: 3}
 --- !u!114 &1416903913 stripped
@@ -5402,6 +7769,18 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
     type: 3}
   m_PrefabInstance: {fileID: 1416903912}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1609983465 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 469326440776063194, guid: 31f11af73ba144b40b2f52a34e74a74c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1878140442}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -5560,3 +7939,84 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1413204430900409052 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1413204430900409052, guid: 618057acfcde6004b88979a985ca21ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1612075002473512869}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1612075002473512869
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8661476368258704341, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_Name
+      value: Policial
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 836141108441131181, guid: 618057acfcde6004b88979a985ca21ec,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 618057acfcde6004b88979a985ca21ec, type: 3}
