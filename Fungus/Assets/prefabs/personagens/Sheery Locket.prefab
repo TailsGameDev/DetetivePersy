@@ -46,7 +46,8 @@ MonoBehaviour:
   nameText: Sheery Locket
   nameColor: {r: 0.77718097, g: 0, b: 0.9245283, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
