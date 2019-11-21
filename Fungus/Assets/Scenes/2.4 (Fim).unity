@@ -806,7 +806,6 @@ GameObject:
   - component: {fileID: 1328234304}
   - component: {fileID: 1328234277}
   - component: {fileID: 1328234303}
-  - component: {fileID: 1328234302}
   - component: {fileID: 1328234301}
   - component: {fileID: 1328234300}
   - component: {fileID: 1328234299}
@@ -849,6 +848,11 @@ GameObject:
   - component: {fileID: 1328234311}
   - component: {fileID: 1328234310}
   - component: {fileID: 1328234309}
+  - component: {fileID: 1328234302}
+  - component: {fileID: 1328234324}
+  - component: {fileID: 1328234326}
+  - component: {fileID: 1328234327}
+  - component: {fileID: 1328234328}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -869,11 +873,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 188.04018, y: 48.063538}
+  scrollPos: {x: 96.45616, y: -10.720148}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 326
-  zoom: 0.85000014
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -881,9 +885,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1328234277}
+  - {fileID: 1328234305}
   selectedCommands:
-  - {fileID: 1328234322}
+  - {fileID: 1328234328}
   variables: []
   description: 
   stepPause: 0
@@ -909,8 +913,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 365
-    y: 139
+    x: 468.19147
+    y: 160.27657
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1321,7 +1325,7 @@ MonoBehaviour:
   storyText: "Isso foi\u2026 anticlim\xE1tico?"
   description: 
   character: {fileID: 124659816}
-  portrait: {fileID: 21300000, guid: 63fd3edf6159e1f458d59ad16b3a21c7, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1614,9 +1618,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 10
+  itemId: 55
   indentLevel: 0
-  storyText: "Vamos, o nosso trabalho aqui j\xE1 est\xE1 feito.\r\n"
+  storyText: "Vamos, o nosso trabalho aqui j\xE1 est\xE1 feito.\r\n\n"
   description: 
   character: {fileID: 916291565}
   portrait: {fileID: 0}
@@ -1701,10 +1705,14 @@ MonoBehaviour:
   - {fileID: 1328234296}
   - {fileID: 1328234297}
   - {fileID: 1328234298}
+  - {fileID: 1328234326}
   - {fileID: 1328234299}
   - {fileID: 1328234300}
+  - {fileID: 1328234327}
   - {fileID: 1328234308}
   - {fileID: 1328234301}
+  - {fileID: 1328234324}
+  - {fileID: 1328234328}
   - {fileID: 1328234302}
   - {fileID: 1328234307}
 --- !u!4 &1328234306
@@ -1936,9 +1944,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  display: 1
+  display: 2
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 124659816}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -1968,9 +1976,9 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 916291565}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1998,13 +2006,13 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 124659816}
+  character: {fileID: 916291565}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 977d552883700544d85798f33a8f4442, type: 3}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 1
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1703490783}
-  facing: 1
+  facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -2058,9 +2066,9 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 124659816}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6eee93168a967244dbb20146b5e06211, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -2222,6 +2230,36 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1328234324
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328234275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 124659816}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 1429832678}
+  toPosition: {fileID: 1703490783}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &1328234325
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2245,6 +2283,96 @@ MonoBehaviour:
   fromPosition: {fileID: 1429832678}
   toPosition: {fileID: 1703490783}
   facing: 2
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1328234326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328234275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 916291565}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
+  offset: 0
+  fromPosition: {fileID: 1217993427}
+  toPosition: {fileID: 1605525398}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1328234327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328234275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 58
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 916291565}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1605525398}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1328234328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328234275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 916291565}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
+  offset: 0
+  fromPosition: {fileID: 1217993427}
+  toPosition: {fileID: 1605525398}
+  facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
