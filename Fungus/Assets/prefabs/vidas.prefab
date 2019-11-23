@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 2462046988613385309}
   - component: {fileID: 2462046988613385308}
   - component: {fileID: 2462046988613385307}
-  - component: {fileID: 2462046988613385296}
   - component: {fileID: 2462046988613385300}
   - component: {fileID: 2462046988613385299}
   - component: {fileID: 2462046988613385298}
@@ -29,6 +28,10 @@ GameObject:
   - component: {fileID: 4836197084499875108}
   - component: {fileID: 7921172813780516174}
   - component: {fileID: 1501118599614756123}
+  - component: {fileID: 4418941289010943056}
+  - component: {fileID: 2467212084415608597}
+  - component: {fileID: 1120318480254723947}
+  - component: {fileID: 1679940539351058131}
   m_Layer: 5
   m_Name: vidas
   m_TagString: Untagged
@@ -52,9 +55,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 479, y: -180}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 700, y: 130.70001}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!222 &2462046988613385317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -122,9 +125,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2462046988613385311}
-  selectedCommands:
-  - {fileID: 1501118599614756123}
+  - {fileID: 2462046988613385305}
+  selectedCommands: []
   variables:
   - {fileID: 2462046988613385319}
   - {fileID: 2462046988613385309}
@@ -164,7 +166,7 @@ MonoBehaviour:
   eventHandler: {fileID: 2462046988613385304}
   commandList:
   - {fileID: 2462046988613385318}
-  - {fileID: 2462046988613385296}
+  - {fileID: 4418941289010943056}
 --- !u!114 &2462046988613385304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,9 +240,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 2462046988613385308}
   - {fileID: 2462046988613385307}
+  - {fileID: 1120318480254723947}
   - {fileID: 4836197084499875108}
   - {fileID: 7921172813780516174}
   - {fileID: 1501118599614756123}
+  - {fileID: 2467212084415608597}
 --- !u!114 &2462046988613385310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -269,7 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: vida
-  value: 0
+  value: 5
 --- !u!114 &2462046988613385308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,25 +358,6 @@ MonoBehaviour:
     stringVal: '{$txtInicial} {$vida}'
   description: 
   _textObjectObsolete: {fileID: 0}
---- !u!114 &2462046988613385296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2462046988613385314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 5
-  indentLevel: 0
-  messageTarget: 0
-  _message:
-    stringRef: {fileID: 0}
-    stringVal: perdeVida
-  messageOLD: 
 --- !u!114 &2462046988613385300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,6 +385,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 2462046988613385299}
   - {fileID: 2462046988613385298}
+  - {fileID: 1679940539351058131}
 --- !u!114 &2462046988613385299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -415,7 +401,7 @@ MonoBehaviour:
   itemId: 7
   indentLevel: 0
   variable: {fileID: 2462046988613385309}
-  setOperator: 4
+  setOperator: 2
   booleanData:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -608,3 +594,65 @@ MonoBehaviour:
     stringVal: 1.1 (Carro)
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &4418941289010943056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  key: vida
+  variable: {fileID: 2462046988613385309}
+--- !u!114 &2467212084415608597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+--- !u!114 &1120318480254723947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  key: vida
+  variable: {fileID: 2462046988613385309}
+--- !u!114 &1679940539351058131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 16
+  indentLevel: 0
+  key: vida
+  variable: {fileID: 2462046988613385309}
