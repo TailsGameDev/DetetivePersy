@@ -83,6 +83,8 @@ GameObject:
   - component: {fileID: 2158374269710317850}
   - component: {fileID: 9077090999017131733}
   - component: {fileID: 2130713268652728294}
+  - component: {fileID: 9100171208014401905}
+  - component: {fileID: 4331888544717653730}
   m_Layer: 0
   m_Name: DebateGenerico
   m_TagString: Untagged
@@ -129,9 +131,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 6909141082222426223}
+  - {fileID: 6909141082222426181}
   selectedCommands:
-  - {fileID: 2130713268652728294}
+  - {fileID: 4331888544717653730}
   variables:
   - {fileID: 6909141082222426229}
   - {fileID: 6909141082222426217}
@@ -339,6 +341,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 8469342551968325591}
   - {fileID: 1991841324850240306}
+  - {fileID: 4331888544717653730}
   - {fileID: 8457755485866774186}
 --- !u!114 &6909141082222426228
 MonoBehaviour:
@@ -2067,7 +2070,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -393.90048
-    y: 835.1925
+    y: 833.3743
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2078,6 +2081,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 6909141082222426183}
+  - {fileID: 9100171208014401905}
 --- !u!114 &1090971755892991335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2615,7 +2619,7 @@ MonoBehaviour:
   indentLevel: 2
   conversationText:
     stringRef: {fileID: 0}
-    stringVal: "Persey Endkei nervoso_com_baguio_roxo left: \xC9 mentira! {$ProvaDaMentira}"
+    stringVal: "Persy Endkei nervoso_com_baguio_roxo left: \xC9 mentira! {$ProvaDaMentira}"
   clearPrevious:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -2628,3 +2632,88 @@ MonoBehaviour:
   fadeWhenDone:
     booleanRef: {fileID: 0}
     booleanVal: 1
+--- !u!114 &9100171208014401905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909141082222426201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 160
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 0}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &4331888544717653730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909141082222426201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 161
+  indentLevel: 0
+  variable: {fileID: 6909141082222426235}
+  setOperator: 0
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
