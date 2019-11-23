@@ -931,7 +931,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1328234277}
   selectedCommands:
-  - {fileID: 1328234320}
+  - {fileID: 1328234278}
   variables: []
   description: 
   stepPause: 0
@@ -1043,7 +1043,7 @@ MonoBehaviour:
   storyText: "\u2026"
   description: 
   character: {fileID: 124659816}
-  portrait: {fileID: 21300000, guid: c36d10120d02646468b546288e2b19e3, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1070,8 +1070,8 @@ MonoBehaviour:
   storyText: " Mas voc\xEA ainda vai perder 10% do sal\xE1rio por causa da piada com
     o peixe.\r\n"
   description: 
-  character: {fileID: 124659816}
-  portrait: {fileID: 21300000, guid: b3fd9f1ff1c9945408b6d210652e3f5e, type: 3}
+  character: {fileID: 916291565}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1097,7 +1097,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Voc\xEA esta certa, eu s\xF3 \xF3timo~\r\n"
   description: 
-  character: {fileID: 916291565}
+  character: {fileID: 124659816}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1125,7 +1125,7 @@ MonoBehaviour:
   storyText: "\xC9\u2026\r\n"
   description: 
   character: {fileID: 124659816}
-  portrait: {fileID: 21300000, guid: 1ab5f734ec135804b8a2a6df6ef0b716, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1206,7 +1206,7 @@ MonoBehaviour:
   storyText: "Ah sei l\xE1\u2026\r\n"
   description: 
   character: {fileID: 124659816}
-  portrait: {fileID: 21300000, guid: c36d10120d02646468b546288e2b19e3, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1233,7 +1233,7 @@ MonoBehaviour:
   storyText: "...\r\n"
   description: 
   character: {fileID: 124659816}
-  portrait: {fileID: 21300000, guid: b3fd9f1ff1c9945408b6d210652e3f5e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1314,7 +1314,7 @@ MonoBehaviour:
   storyText: "Foi\u2026 isso?\r\n"
   description: 
   character: {fileID: 124659816}
-  portrait: {fileID: 21300000, guid: d99b95b4cefe06743b19ff9a99bf6e76, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1341,7 +1341,7 @@ MonoBehaviour:
   storyText: "Eu esperava tipo um plano elaborado com v\xE1rios detalhes e\u2026"
   description: 
   character: {fileID: 124659816}
-  portrait: {fileID: 21300000, guid: 977d552883700544d85798f33a8f4442, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1731,7 +1731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 150
+    x: 148.93617
     y: 69
     width: 120
     height: 40
@@ -2154,7 +2154,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1328234320
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2191,7 +2191,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 124659816}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: d918ebf42533f124286cf03985dcf42f, type: 3}
+  portrait: {fileID: 21300000, guid: 69be14fbd55e2b4429f6e8f585645737, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1703490783}
@@ -2265,7 +2265,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1328234324
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
