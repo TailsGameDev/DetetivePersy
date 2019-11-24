@@ -32,6 +32,7 @@ GameObject:
   - component: {fileID: 2467212084415608597}
   - component: {fileID: 1120318480254723947}
   - component: {fileID: 1679940539351058131}
+  - component: {fileID: 2611138729998966695}
   m_Layer: 5
   m_Name: vidas
   m_TagString: Untagged
@@ -125,7 +126,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2462046988613385305}
+  - {fileID: 2611138729998966695}
   selectedCommands: []
   variables:
   - {fileID: 2462046988613385319}
@@ -656,3 +657,29 @@ MonoBehaviour:
   indentLevel: 0
   key: vida
   variable: {fileID: 2462046988613385309}
+--- !u!114 &2611138729998966695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 32.37509
+    y: 94.323105
+    width: 627.02124
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 17
+  blockName: Vidas sao salvas no computador, dae quando o jogo estiver pronto, na
+    cena 1.1 vamos setar pra zero
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
