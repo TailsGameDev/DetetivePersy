@@ -230,9 +230,6 @@ GameObject:
   - component: {fileID: 431096662}
   - component: {fileID: 431096661}
   - component: {fileID: 431096660}
-  - component: {fileID: 431096659}
-  - component: {fileID: 431096658}
-  - component: {fileID: 431096657}
   - component: {fileID: 431096656}
   - component: {fileID: 431096655}
   - component: {fileID: 431096654}
@@ -272,6 +269,11 @@ GameObject:
   - component: {fileID: 431096602}
   - component: {fileID: 431096567}
   - component: {fileID: 431096566}
+  - component: {fileID: 431096694}
+  - component: {fileID: 431096693}
+  - component: {fileID: 431096659}
+  - component: {fileID: 431096658}
+  - component: {fileID: 431096657}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -292,11 +294,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -160.15367, y: -39.64079}
+  scrollPos: {x: -76.35187, y: -69.7306}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 273
-  zoom: 0.97
+  zoom: 0.8500001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -304,8 +306,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 431096642}
-  selectedCommands: []
+  - {fileID: 431096565}
+  selectedCommands:
+  - {fileID: 431096670}
   variables: []
   description: 
   stepPause: 0
@@ -1884,7 +1887,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Ah sim, entendo.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 768264067}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1912,7 +1915,7 @@ MonoBehaviour:
   storyText: "N\xE3o fique nervoso, isso acaba fazendo voc\xEA n\xE3o raciocinar direito
     e a investiga\xE7\xE3o pode acabar piorando."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 768264067}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1937,7 +1940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  storyText: "Ta, voc\xEA me pegou to nervoso sobre a investiga\xE7\xE3o."
+  storyText: "Ta, voc\xEA me pegou, to nervoso sobre a investiga\xE7\xE3o."
   description: 
   character: {fileID: 169565147}
   portrait: {fileID: 0}
@@ -1964,7 +1967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: "Porem um dia voc\xEA vai ter que investigar um assasinato, ent\xE3o
+  storyText: "Porem um dia voc\xEA vai ter que investigar crimes grandes, ent\xE3o
     sugiro que se acostume logo."
   description: 
   character: {fileID: 768264067}
@@ -2047,7 +2050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 41
   indentLevel: 0
-  storyText: "N\xE3o se preocupa, se tivesse algum cad\xE1ver l\xE1, eles nos falariam."
+  storyText: "N\xE3o se preocupa, se tivesse algo muito grave, eles iriam nos contar."
   description: 
   character: {fileID: 768264067}
   portrait: {fileID: 0}
@@ -2728,8 +2731,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 677.473
-    y: 161.90881
+    x: 680.1046
+    y: 160.59302
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3148,11 +3151,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 156
+  itemId: 207
   indentLevel: 0
-  storyText: Pffft, ok chefe!
+  storyText: "Tais informa\xE7\xF5es podem ser vistas a qualquer momento para dar
+    um entendimento melhor do caso.\r\n\r"
   description: 
-  character: {fileID: 169565147}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3175,11 +3179,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 154
+  itemId: 206
   indentLevel: 0
-  storyText: "... S\xF3 vai ver esse seu bloco ok?!"
+  storyText: "O bloco de notas salva informa\xE7\xF5es importantes que Persy encontra,
+    como evid\xEAncias e observa\xE7\xF5es.\r\n\r\n"
   description: 
-  character: {fileID: 768264067}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3199,24 +3204,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 431096552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 153
-  indentLevel: 0
-  storyText: "Para um detetive voc\xEA tem dificuldades para entender sarcasmo n\xE9?"
+  nodeRect:
+    serializedVersion: 2
+    x: 1019.8357
+    y: 324.53198
+    width: 150
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 205
+  blockName: Tutorial de notas
   description: 
-  character: {fileID: 169565147}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 431096658}
+  - {fileID: 431096657}
 --- !u!114 &431096660
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3368,7 +3373,7 @@ MonoBehaviour:
   itemId: 147
   indentLevel: 0
   storyText: "Nesse caso, se a investiga\xE7\xE3o acabar mal e eu ter que despedir
-    voce, pelo menos voc\xEA pode ser meu secretario."
+    voc\xEA, pelo menos voc\xEA pode ser meu secretario."
   description: 
   character: {fileID: 768264067}
   portrait: {fileID: 0}
@@ -3443,9 +3448,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
-  storyText: "Mas, voc\xEA deveria checar o que sabemos, voc\xEA salvou a conversa?"
+  storyText: Entendi...
   description: 
-  character: {fileID: 768264067}
+  character: {fileID: 169565147}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -3482,6 +3487,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 431096668}
+  - {fileID: 431096693}
+  - {fileID: 431096694}
   - {fileID: 431096667}
   - {fileID: 431096662}
   - {fileID: 431096663}
@@ -3489,9 +3496,6 @@ MonoBehaviour:
   - {fileID: 431096665}
   - {fileID: 431096661}
   - {fileID: 431096660}
-  - {fileID: 431096659}
-  - {fileID: 431096658}
-  - {fileID: 431096657}
   - {fileID: 431096656}
   - {fileID: 431096655}
   - {fileID: 431096654}
@@ -3700,7 +3704,7 @@ MonoBehaviour:
   itemId: 120
   indentLevel: 0
   storyText: "Seja util e revise o que sabemos, ja que voc\xEA facilmente se irrita,
-    sugiro que voc\xEA siba o minimo do caso antes de estragar tudo."
+    sugiro que voc\xEA saiba o minimo do caso antes de estragar tudo."
   description: 
   character: {fileID: 768264067}
   portrait: {fileID: 0}
@@ -3781,7 +3785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 0
-  storyText: "S\xF3 to um pouco nervoso, n\xE3o quis sera t\xE3o grosso."
+  storyText: "S\xF3 to um pouco nervoso, n\xE3o quis ser t\xE3o grosso."
   description: 
   character: {fileID: 169565147}
   portrait: {fileID: 0}
@@ -4119,6 +4123,60 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &431096693
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431096552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 204
+  indentLevel: 0
+  storyText: Mas deixa isso de lado, e vamos focar no que sabemos deste caso.
+  description: 
+  character: {fileID: 768264067}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &431096694
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431096552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 202
+  indentLevel: 0
+  storyText: " voc\xEA salvou a conversa da policial?"
+  description: 
+  character: {fileID: 768264067}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &768264067 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4628836318180166625, guid: 2a8bf30193e07654198d575cf1e0c303,
@@ -4348,6 +4406,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Persy Endkei
+      objectReference: {fileID: 0}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: nameColor.g
+      value: 0.008503914
       objectReference: {fileID: 0}
     - target: {fileID: 3837975544112167882, guid: 7675d68b2b895d14e89545d682f7dc31,
         type: 3}
