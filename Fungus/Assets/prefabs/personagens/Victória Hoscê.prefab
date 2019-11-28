@@ -46,7 +46,10 @@ MonoBehaviour:
   nameText: "Vict\xF3ria Hosc\xEA"
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 2a1f12a49531ef94396cb622f02ca373, type: 3}
+  - {fileID: 21300000, guid: f9108248048c261488c7600ddc6d3b2c, type: 3}
+  - {fileID: 21300000, guid: a404909e933d57b418243543161da28e, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
