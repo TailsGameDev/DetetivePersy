@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3837975544112167884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3837975544112167882}
+  - component: {fileID: 3837975544112167885}
+  m_Layer: 0
+  m_Name: Persy Endkei
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3837975544112167882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3837975544112167884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3837975544112167885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3837975544112167884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Persy Endkei
+  nameColor: {r: 0, g: 0, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 6eee93168a967244dbb20146b5e06211, type: 3}
+  - {fileID: 21300000, guid: 24d32716727e603479d302b138235f09, type: 3}
+  - {fileID: 21300000, guid: d99b95b4cefe06743b19ff9a99bf6e76, type: 3}
+  - {fileID: 21300000, guid: d918ebf42533f124286cf03985dcf42f, type: 3}
+  - {fileID: 21300000, guid: 3ef862291345507438197e3715910768, type: 3}
+  - {fileID: 21300000, guid: 69be14fbd55e2b4429f6e8f585645737, type: 3}
+  - {fileID: 21300000, guid: 977d552883700544d85798f33a8f4442, type: 3}
+  - {fileID: 21300000, guid: a784d5e35fa8fc14fbe0b55b69d7dc2f, type: 3}
+  - {fileID: 21300000, guid: 63fd3edf6159e1f458d59ad16b3a21c7, type: 3}
+  - {fileID: 21300000, guid: b3fd9f1ff1c9945408b6d210652e3f5e, type: 3}
+  - {fileID: 21300000, guid: c36d10120d02646468b546288e2b19e3, type: 3}
+  - {fileID: 21300000, guid: 1ab5f734ec135804b8a2a6df6ef0b716, type: 3}
+  portraitsFace: 1
+  setSayDialog: {fileID: 0}
+  description: 

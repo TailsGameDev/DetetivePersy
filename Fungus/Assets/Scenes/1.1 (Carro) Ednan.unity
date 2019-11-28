@@ -343,6 +343,13 @@ GameObject:
   - component: {fileID: 431096602}
   - component: {fileID: 431096567}
   - component: {fileID: 431096566}
+<<<<<<< HEAD
+  - component: {fileID: 431096694}
+  - component: {fileID: 431096693}
+  - component: {fileID: 431096659}
+  - component: {fileID: 431096658}
+  - component: {fileID: 431096657}
+=======
   - component: {fileID: 431096696}
   - component: {fileID: 431096695}
   - component: {fileID: 431096694}
@@ -508,6 +515,7 @@ GameObject:
   - component: {fileID: 431096826}
   - component: {fileID: 431096825}
   - component: {fileID: 431096824}
+>>>>>>> 5cecb2fb84895c27b4f92bc35c37f3523485de03
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -528,11 +536,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
+<<<<<<< HEAD
+  scrollPos: {x: -76.35187, y: -69.7306}
+  variablesScrollPos: {x: 0, y: 0}
+  variablesExpanded: 1
+  blockViewHeight: 273
+  zoom: 0.8500001
+=======
   scrollPos: {x: -248.88579, y: 190.15555}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 273
   zoom: 0.4300001
+>>>>>>> 5cecb2fb84895c27b4f92bc35c37f3523485de03
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -540,8 +556,14 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
+<<<<<<< HEAD
+  - {fileID: 431096565}
+  selectedCommands:
+  - {fileID: 431096670}
+=======
   - {fileID: 431096575}
   selectedCommands: []
+>>>>>>> 5cecb2fb84895c27b4f92bc35c37f3523485de03
   variables: []
   description: 
   stepPause: 0
@@ -3865,8 +3887,13 @@ MonoBehaviour:
   commandList:
   - {fileID: 431096841}
   - {fileID: 431096668}
+<<<<<<< HEAD
+  - {fileID: 431096693}
+  - {fileID: 431096694}
+=======
   - {fileID: 431096840}
   - {fileID: 431096745}
+>>>>>>> 5cecb2fb84895c27b4f92bc35c37f3523485de03
   - {fileID: 431096667}
   - {fileID: 431096746}
   - {fileID: 431096839}
@@ -3884,6 +3911,8 @@ MonoBehaviour:
   - {fileID: 431096768}
   - {fileID: 431096835}
   - {fileID: 431096660}
+<<<<<<< HEAD
+=======
   - {fileID: 431096834}
   - {fileID: 431096767}
   - {fileID: 431096659}
@@ -3894,6 +3923,7 @@ MonoBehaviour:
   - {fileID: 431096765}
   - {fileID: 431096657}
   - {fileID: 431096763}
+>>>>>>> 5cecb2fb84895c27b4f92bc35c37f3523485de03
   - {fileID: 431096656}
   - {fileID: 431096655}
   - {fileID: 431096764}
@@ -4523,6 +4553,63 @@ MonoBehaviour:
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &431096693
+<<<<<<< HEAD
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431096552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 204
+  indentLevel: 0
+  storyText: Mas deixa isso de lado, e vamos focar no que sabemos deste caso.
+  description: 
+  character: {fileID: 768264067}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &431096694
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431096552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 202
+  indentLevel: 0
+  storyText: " voc\xEA salvou a conversa da policial?"
+  description: 
+  character: {fileID: 768264067}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &768264067 stripped
+=======
+>>>>>>> 5cecb2fb84895c27b4f92bc35c37f3523485de03
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
