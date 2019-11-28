@@ -14518,9 +14518,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4628836318180166625, guid: 2a8bf30193e07654198d575cf1e0c303,
         type: 3}
+      propertyPath: portraits.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628836318180166625, guid: 2a8bf30193e07654198d575cf1e0c303,
+        type: 3}
       propertyPath: portraitsFace
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4628836318180166625, guid: 2a8bf30193e07654198d575cf1e0c303,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5b0d825f34c993e40bbd6ba67e6ac393,
+        type: 3}
+    - target: {fileID: 4628836318180166625, guid: 2a8bf30193e07654198d575cf1e0c303,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 339684b2cd710d64baa80faf4fa2796f,
+        type: 3}
+    - target: {fileID: 4628836318180166625, guid: 2a8bf30193e07654198d575cf1e0c303,
+        type: 3}
+      propertyPath: portraits.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: c3ddf868be9f6e94ab80ed526a0d4ed5,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a8bf30193e07654198d575cf1e0c303, type: 3}
 --- !u!114 &1322673131 stripped
@@ -14867,6 +14890,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polly Seeya
       objectReference: {fileID: 0}
+    - target: {fileID: 469326440776063194, guid: 31f11af73ba144b40b2f52a34e74a74c,
+        type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 469326440776063194, guid: 31f11af73ba144b40b2f52a34e74a74c,
+        type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0fb72cc17452b9948b7c22919e9082b3,
+        type: 3}
+    - target: {fileID: 469326440776063194, guid: 31f11af73ba144b40b2f52a34e74a74c,
+        type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: dce008b1aeb8e8241bd96d7508d800c8,
+        type: 3}
+    - target: {fileID: 469326440776063194, guid: 31f11af73ba144b40b2f52a34e74a74c,
+        type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: abaf9fa3c9138dc4380c621bfd9f1035,
+        type: 3}
     - target: {fileID: 469326440776063195, guid: 31f11af73ba144b40b2f52a34e74a74c,
         type: 3}
       propertyPath: m_LocalPosition.x
