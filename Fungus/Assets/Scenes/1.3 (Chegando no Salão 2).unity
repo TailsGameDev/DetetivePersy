@@ -428,7 +428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 460.43, y: -1000}
+  m_AnchoredPosition: {x: 707, y: -1000}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &423469448
@@ -852,6 +852,13 @@ GameObject:
   - component: {fileID: 848407084}
   - component: {fileID: 848407082}
   - component: {fileID: 848407083}
+  - component: {fileID: 848407085}
+  - component: {fileID: 848407091}
+  - component: {fileID: 848407090}
+  - component: {fileID: 848407089}
+  - component: {fileID: 848407088}
+  - component: {fileID: 848407087}
+  - component: {fileID: 848407086}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -872,11 +879,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 60.637917, y: 227.63046}
+  scrollPos: {x: 95.59869, y: 143.77438}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.5670003
+  blockViewHeight: 401
+  zoom: 0.65700024
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -884,9 +891,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 848406999}
-  selectedCommands:
-  - {fileID: 848407078}
+  - {fileID: 848406982}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -942,7 +948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 68.78049
-    width: 124.779495
+    width: 120.0152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -991,8 +997,10 @@ MonoBehaviour:
   - {fileID: 848406947}
   - {fileID: 848407040}
   - {fileID: 848406933}
+  - {fileID: 848407087}
   - {fileID: 848406932}
   - {fileID: 848406931}
+  - {fileID: 848407086}
   - {fileID: 848406926}
 --- !u!114 &848406911
 MonoBehaviour:
@@ -1320,8 +1328,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 848407045}
   - {fileID: 848406917}
+  - {fileID: 848407089}
   - {fileID: 848406924}
   - {fileID: 848406946}
+  - {fileID: 848407088}
   - {fileID: 848407044}
   - {fileID: 848406945}
   - {fileID: 848407043}
@@ -1353,6 +1363,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 848407085}
   - {fileID: 848406943}
   - {fileID: 848406942}
   - {fileID: 848407035}
@@ -1363,9 +1374,11 @@ MonoBehaviour:
   - {fileID: 848406939}
   - {fileID: 848407032}
   - {fileID: 848406938}
+  - {fileID: 848407091}
   - {fileID: 848406937}
   - {fileID: 848406936}
   - {fileID: 848406914}
+  - {fileID: 848407090}
   - {fileID: 848407038}
   - {fileID: 848406935}
   - {fileID: 848406915}
@@ -1992,7 +2005,7 @@ MonoBehaviour:
     seja bom o suficiente para investigar."
   description: 
   character: {fileID: 91093407}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c3ddf868be9f6e94ab80ed526a0d4ed5, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2094,7 +2107,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 395.08667
     y: 61.98249
-    width: 136.06697
+    width: 126.10347
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3179,7 +3192,7 @@ MonoBehaviour:
   storyText: "Voc\xEA n\xE3o pode ir, Tens que ficar aqui um pouco mais hoje."
   description: 
   character: {fileID: 91093407}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3430,8 +3443,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 904.07324
-    y: -1.2568569
+    x: 904.0732
+    y: -1.2568464
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4091,7 +4104,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1ab5f734ec135804b8a2a6df6ef0b716, type: 3}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4151,7 +4164,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1ab5f734ec135804b8a2a6df6ef0b716, type: 3}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4211,7 +4224,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1ab5f734ec135804b8a2a6df6ef0b716, type: 3}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4295,7 +4308,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 662.0082
     y: 176.81747
-    width: 144.53256
+    width: 135.23589
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4376,7 +4389,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4436,7 +4449,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 339684b2cd710d64baa80faf4fa2796f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4564,7 +4577,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4624,7 +4637,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4654,7 +4667,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4714,7 +4727,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 5b0d825f34c993e40bbd6ba67e6ac393, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4774,7 +4787,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4864,7 +4877,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 339684b2cd710d64baa80faf4fa2796f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -4984,7 +4997,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5074,7 +5087,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 5b0d825f34c993e40bbd6ba67e6ac393, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5134,7 +5147,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c3ddf868be9f6e94ab80ed526a0d4ed5, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5194,7 +5207,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5254,7 +5267,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5314,7 +5327,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1ab5f734ec135804b8a2a6df6ef0b716, type: 3}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5434,7 +5447,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5494,7 +5507,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 5b0d825f34c993e40bbd6ba67e6ac393, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5554,7 +5567,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
+  portrait: {fileID: 21300000, guid: 339684b2cd710d64baa80faf4fa2796f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5690,7 +5703,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 91093407}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
+  portrait: {fileID: 21300000, guid: 339684b2cd710d64baa80faf4fa2796f, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -5839,6 +5852,216 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &848407085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848406906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 220
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 347473328}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: dce008b1aeb8e8241bd96d7508d800c8, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &848407086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848406906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 226
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 347473328}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &848407087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848406906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 225
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 347473328}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: abaf9fa3c9138dc4380c621bfd9f1035, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &848407088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848406906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 224
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 347473328}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &848407089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848406906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 223
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 347473328}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: abaf9fa3c9138dc4380c621bfd9f1035, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &848407090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848406906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 222
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 347473328}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &848407091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848406906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 221
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 347473328}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: dce008b1aeb8e8241bd96d7508d800c8, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1001 &930439396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5998,7 +6221,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -460.43, y: -1000}
+  m_AnchoredPosition: {x: -639, y: -1000}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1072903675
@@ -6388,41 +6611,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebateGenerico
       objectReference: {fileID: 0}
-    - target: {fileID: 6909141082222426135, guid: 3dae93f5cbdf30f478d752607e3030c7,
-        type: 3}
-      propertyPath: value
-      value: "E-E eu chamei a pol\xEDcia!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6909141082222426176, guid: 3dae93f5cbdf30f478d752607e3030c7,
-        type: 3}
-      propertyPath: value
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6909141082222426185, guid: 3dae93f5cbdf30f478d752607e3030c7,
-        type: 3}
-      propertyPath: value
-      value: "E-Ent\xE3o\u2026 A festa come\xE7ou as 19:00\u2026 "
-      objectReference: {fileID: 0}
-    - target: {fileID: 6909141082222426186, guid: 3dae93f5cbdf30f478d752607e3030c7,
-        type: 3}
-      propertyPath: value
-      value: "Da\xED\u2026 hum\u2026 a festa come\xE7ou."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6909141082222426187, guid: 3dae93f5cbdf30f478d752607e3030c7,
-        type: 3}
-      propertyPath: value
-      value: "Tinha um monte de gente conversando, dan\xE7ando e etc\u2026"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6909141082222426188, guid: 3dae93f5cbdf30f478d752607e3030c7,
-        type: 3}
-      propertyPath: value
-      value: "Da\xED\u2026 hum! A-A-Aquilo aconteceu! tudo ficou escuro!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6909141082222426190, guid: 3dae93f5cbdf30f478d752607e3030c7,
-        type: 3}
-      propertyPath: value
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6909141082222426253, guid: 3dae93f5cbdf30f478d752607e3030c7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6483,6 +6671,31 @@ PrefabInstance:
       propertyPath: selectedCommands.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6909141082222426185, guid: 3dae93f5cbdf30f478d752607e3030c7,
+        type: 3}
+      propertyPath: value
+      value: "E-Ent\xE3o\u2026 A festa come\xE7ou as 19:00\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909141082222426186, guid: 3dae93f5cbdf30f478d752607e3030c7,
+        type: 3}
+      propertyPath: value
+      value: "Da\xED\u2026 hum\u2026 a festa come\xE7ou."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909141082222426187, guid: 3dae93f5cbdf30f478d752607e3030c7,
+        type: 3}
+      propertyPath: value
+      value: "Tinha um monte de gente conversando, dan\xE7ando e etc\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909141082222426188, guid: 3dae93f5cbdf30f478d752607e3030c7,
+        type: 3}
+      propertyPath: value
+      value: "Da\xED\u2026 hum! A-A-Aquilo aconteceu! tudo ficou escuro!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909141082222426190, guid: 3dae93f5cbdf30f478d752607e3030c7,
+        type: 3}
+      propertyPath: value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9100171208014401905, guid: 3dae93f5cbdf30f478d752607e3030c7,
         type: 3}
       propertyPath: targetFlowchart
@@ -6493,6 +6706,16 @@ PrefabInstance:
       propertyPath: targetBlock
       value: 
       objectReference: {fileID: 848407031}
+    - target: {fileID: 6909141082222426135, guid: 3dae93f5cbdf30f478d752607e3030c7,
+        type: 3}
+      propertyPath: value
+      value: "E-E eu chamei a pol\xEDcia!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6909141082222426176, guid: 3dae93f5cbdf30f478d752607e3030c7,
+        type: 3}
+      propertyPath: value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3dae93f5cbdf30f478d752607e3030c7, type: 3}
 --- !u!114 &1958762820 stripped
