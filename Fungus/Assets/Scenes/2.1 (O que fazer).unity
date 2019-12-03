@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1575290433}
 --- !u!4 &119580127
 Transform:
   m_ObjectHideFlags: 1
@@ -248,7 +248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1300, y: -1000}
+  m_AnchoredPosition: {x: 773, y: -1000}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &258936953
@@ -322,7 +322,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1000}
+  m_AnchoredPosition: {x: -324, y: -1000}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &275771320
@@ -713,7 +713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -460.43, y: -1000}
+  m_AnchoredPosition: {x: -805, y: -1000}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1031063356
@@ -944,7 +944,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 52.31871
     y: 88.8901
-    width: 146.7033
+    width: 153.01367
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -977,11 +977,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -232.67033, y: 40.615353}
+  scrollPos: {x: -133.07683, y: 100.90431}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 235
-  zoom: 0.9100001
+  zoom: 0.73000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1437,7 +1437,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 509.40692
     y: 79.17583
-    width: 135.27472
+    width: 142.05476
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1546,23 +1546,23 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: "Persy Endkei pensando_b._fechada_o._aberto left: Pessoal t\xE1 agitado
       aqui\u2026\r\nSheery Locket adoleta right: Normal, eles est\xE3o trancados aqui
-      at\xE9 encontrarmos o culpado.\r\nPolly Seeya: ...\r\nSheery Locket adoleta
-      right: . . .\r\nPersy Endkei pensando_b._meio_o._lado left: Voc\xEA est\xE1
-      bem?...\r\nPolly Seeya: N\xE3o,que fique claro o que eu fa\xE7o para voc\xEAs.\r\nSheery
-      Locket adoleta right: Do que voc\xEA t\xE1 falando?\r\nPolly Seeya: Encontramos
-      uma garota que trabalha aqui, pelo visto ela sabe algumas coisas que n\xE3o
-      foram ditas para n\xF3s ainda mas...\r\nSheery Locket adoleta right: Por que
-      essa informa\xE7\xE3o s\xF3 chegou at\xE9 n\xF3s agora?!\r\nPolly Seeya: ...Ela
-      estava nos ignorando at\xE9 agora\r\nPolly Seeya: E s\xF3 aceitou se n\xF3s
-      tirarmos uma foto que ela goste conosco.\r\nPersy Endkei pensando_b._aberta_o._lado
+      at\xE9 encontrarmos o culpado.\r\nPolly Seeya idle middle: ...\r\nSheery Locket
+      adoleta right: . . .\r\nPersy Endkei pensando_b._meio_o._lado left: Voc\xEA
+      est\xE1 bem?...\r\nPolly Seeya: N\xE3o,que fique claro o que eu fa\xE7o para
+      voc\xEAs.\r\nSheery Locket adoleta right: Do que voc\xEA t\xE1 falando?\r\nPolly
+      Seeya: Encontramos uma garota que trabalha aqui, pelo visto ela sabe algumas
+      coisas que n\xE3o foram ditas para n\xF3s ainda mas...\r\nSheery Locket adoleta
+      right: Por que essa informa\xE7\xE3o s\xF3 chegou at\xE9 n\xF3s agora?!\r\nPolly
+      Seeya riso: ...Ela estava nos ignorando at\xE9 agora\r\nPolly Seeya: E s\xF3
+      aceitou se n\xF3s tirarmos uma foto que ela goste conosco.\r\nPersy Endkei pensando_b._aberta_o._lado
       left: Aw, tirar uma foto n\xE3o parece t\xE3o ruim assim.\r\nPolly Seeya: Uma
       foto que ela GOSTE.\r\nPolly Seeya: Foi a 1349 foto e essa foi com filtro.\r\nPersy
       Endkei nervoso_sem_baguio_roxo: Oh\u2026 \r\nPolly Seeya:Enfim ela \xE9 meio-\r\nVict\xF3ria
       Hosc\xEA: Oiii Migas,Mah aqui diretamente da cena do crime com as puli\xE7a~\r\nVict\xF3ria
-      Hosc\xEA: Como c\xEAs t\xE3o esta noite?~ \r\nPolly Seeya: \u201CEnerg\xE9tica\u201D\r\nVict\xF3ria
+      Hosc\xEA: Como c\xEAs t\xE3o esta noite?~ \r\nPolly Seeya idle: \u201CEnerg\xE9tica\u201D\r\nVict\xF3ria
       Hosc\xEA: Brigada mina~\r\nSheery Locket adoleta right: Que especie de linguajar
       \xE9 este?...\r\nPersy Endkei pensando_b._aberta_o._lado left: Eu reconhe\xE7o
-      e me sinto mal por reconhecer.\r\nPolly Seeya: Ela \xE9 problema seu agora,
+      e me sinto mal por reconhecer.\r\nPolly Seeya riso: Ela \xE9 problema seu agora,
       irei checar a ambul\xE2ncia.\r\nPolly Seeya: Tchauzinho~ \r\nVict\xF3ria Hosc\xEA:
       Nosa,sou uma testemunha de um caso com as puli\xE7a\r\nVict\xF3ria Hosc\xEA:
       Minha story vai bomba mais que clipe novo de popst\xE1!\r\n"
@@ -1661,7 +1661,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 740.96655
     y: 71.54943
-    width: 151.97803
+    width: 156.30133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1674,7 +1674,7 @@ MonoBehaviour:
   - {fileID: 1575290450}
 --- !u!114 &1575290458
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1693,7 +1693,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1575290459
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1728,7 +1728,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 554.64874
     y: 176.96707
-    width: 122.96703
+    width: 132.19174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2110,7 +2110,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 460.43, y: -1000}
+  m_AnchoredPosition: {x: 272, y: -1000}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &2092009703
