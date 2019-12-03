@@ -46,7 +46,8 @@ MonoBehaviour:
   nameText: Carla Zabok
   nameColor: {r: 0.745283, g: 0.3058473, b: 0.3058473, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: ec6b3ef1eab6df84a8a78fc2ac93a291, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
