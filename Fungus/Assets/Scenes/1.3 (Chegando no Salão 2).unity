@@ -1055,7 +1055,6 @@ GameObject:
   - component: {fileID: 848407091}
   - component: {fileID: 848407090}
   - component: {fileID: 848407089}
-  - component: {fileID: 848407088}
   - component: {fileID: 848407087}
   - component: {fileID: 848407086}
   - component: {fileID: 848407099}
@@ -1071,6 +1070,8 @@ GameObject:
   - component: {fileID: 848407100}
   - component: {fileID: 848407103}
   - component: {fileID: 848407104}
+  - component: {fileID: 848407088}
+  - component: {fileID: 848407105}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1091,7 +1092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -172.28555, y: 163.56125}
+  scrollPos: {x: -275.78638, y: 273.15027}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 401
@@ -1103,8 +1104,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 848406982}
-  selectedCommands: []
+  - {fileID: 848406921}
+  selectedCommands:
+  - {fileID: 848407105}
   variables: []
   description: 
   stepPause: 0
@@ -1160,7 +1162,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 68.78049
-    width: 130.36526
+    width: 120.0152
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1548,10 +1550,11 @@ MonoBehaviour:
   commandList:
   - {fileID: 848407045}
   - {fileID: 848406917}
+  - {fileID: 848407105}
+  - {fileID: 848407088}
   - {fileID: 848407089}
   - {fileID: 848406924}
   - {fileID: 848406946}
-  - {fileID: 848407088}
   - {fileID: 848407044}
   - {fileID: 848406945}
   - {fileID: 848407043}
@@ -2327,7 +2330,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 396.60873
     y: 61.98249
-    width: 140.1065
+    width: 126.10347
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4533,7 +4536,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 662.0082
     y: 176.81747
-    width: 151.0654
+    width: 135.23589
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6169,34 +6172,31 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407088
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 848406906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 224
+  itemId: 240
   indentLevel: 0
-  display: 2
-  stage: {fileID: 0}
-  character: {fileID: 347473328}
-  replacedCharacter: {fileID: 0}
+  storyText: perdeu uma vida
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 1
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &848407089
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6289,7 +6289,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407092
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6319,7 +6319,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407093
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6349,7 +6349,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407094
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6379,7 +6379,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407095
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6409,7 +6409,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407096
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6439,7 +6439,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407097
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6469,7 +6469,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407098
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6499,7 +6499,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407099
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6529,7 +6529,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407100
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6559,7 +6559,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407101
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6589,7 +6589,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407102
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6619,7 +6619,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407103
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6649,7 +6649,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &848407104
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6677,6 +6677,25 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &848407105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848406906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 241
+  indentLevel: 0
+  messageTarget: 1
+  _message:
+    stringRef: {fileID: 0}
+    stringVal: perdeVida
+  messageOLD: 
 --- !u!1 &1072903673
 GameObject:
   m_ObjectHideFlags: 0
