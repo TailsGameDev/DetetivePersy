@@ -22,6 +22,8 @@ public class ControleBOtao : MonoBehaviour
         }
         
     }
+
+    //Cara pra q pausar se qd tu nao faz nada o jogo fica parado? (Caina)
     public void Reume() {
         Pause.enabled = false;
         Time.timeScale = 1;
@@ -32,5 +34,5 @@ public class ControleBOtao : MonoBehaviour
       //carregar menu principal  SceneManager.LoadScene("Cena01");
         Pause.enabled = false;
     }
-    
+
 }
