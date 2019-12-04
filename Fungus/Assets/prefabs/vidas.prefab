@@ -27,13 +27,18 @@ GameObject:
   - component: {fileID: 2462046988613385297}
   - component: {fileID: 4836197084499875108}
   - component: {fileID: 7921172813780516174}
-  - component: {fileID: 1501118599614756123}
   - component: {fileID: 4418941289010943056}
   - component: {fileID: 2467212084415608597}
   - component: {fileID: 1120318480254723947}
   - component: {fileID: 1679940539351058131}
   - component: {fileID: 2611138729998966695}
   - component: {fileID: 472785330728767482}
+  - component: {fileID: 8460618601902180300}
+  - component: {fileID: 4992815436194027607}
+  - component: {fileID: 1801816048161364714}
+  - component: {fileID: 739770391023814309}
+  - component: {fileID: 3671257718797564809}
+  - component: {fileID: 6418682170288342705}
   m_Layer: 5
   m_Name: vidas
   m_TagString: Untagged
@@ -115,7 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 115.39201, y: -108.23473}
+  scrollPos: {x: -20.871672, y: -32.41062}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -127,7 +132,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2462046988613385305}
+  - {fileID: 2462046988613385311}
   selectedCommands: []
   variables:
   - {fileID: 2462046988613385319}
@@ -246,7 +251,12 @@ MonoBehaviour:
   - {fileID: 1120318480254723947}
   - {fileID: 4836197084499875108}
   - {fileID: 7921172813780516174}
-  - {fileID: 1501118599614756123}
+  - {fileID: 8460618601902180300}
+  - {fileID: 3671257718797564809}
+  - {fileID: 739770391023814309}
+  - {fileID: 1801816048161364714}
+  - {fileID: 4992815436194027607}
+  - {fileID: 6418682170288342705}
   - {fileID: 2467212084415608597}
 --- !u!114 &2462046988613385310
 MonoBehaviour:
@@ -565,7 +575,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 1
-  storyText: "Voc\xEA Morreu!"
+  storyText: "Voc\xEA n\xE3o foi um bom investigador, e suas vidas chegaram a zero.\nMas,
+    n\xE3o desanime: recomece a cena atual com mais vidas, boa sorte!"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -578,25 +589,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1501118599614756123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2462046988613385314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 12
-  indentLevel: 1
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: 1.1 (Carro)
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
 --- !u!114 &4418941289010943056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -675,7 +667,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 32.37509
     y: 94.323105
-    width: 679.6703
+    width: 646.04395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -705,3 +697,113 @@ MonoBehaviour:
     stringVal: '{$txtInicial} {$vida}'
   description: 
   _textObjectObsolete: {fileID: 0}
+--- !u!114 &8460618601902180300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 1
+  messageTarget: 0
+  _message:
+    stringRef: {fileID: 0}
+    stringVal: ganhaVida
+  messageOLD: 
+--- !u!114 &4992815436194027607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 1
+  messageTarget: 0
+  _message:
+    stringRef: {fileID: 0}
+    stringVal: ganhaVida
+  messageOLD: 
+--- !u!114 &1801816048161364714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 1
+  messageTarget: 0
+  _message:
+    stringRef: {fileID: 0}
+    stringVal: ganhaVida
+  messageOLD: 
+--- !u!114 &739770391023814309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 1
+  messageTarget: 0
+  _message:
+    stringRef: {fileID: 0}
+    stringVal: ganhaVida
+  messageOLD: 
+--- !u!114 &3671257718797564809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43743931d28f43f89eced820d907351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 1
+  messageTarget: 0
+  _message:
+    stringRef: {fileID: 0}
+    stringVal: ganhaVida
+  messageOLD: 
+--- !u!114 &6418682170288342705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462046988613385314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c784b19efbe8424fa879e0d6d883281, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 1
+  loadingImage: {fileID: 0}

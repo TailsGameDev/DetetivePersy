@@ -303,9 +303,9 @@ RectTransform:
   m_Father: {fileID: 890947608}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -541, y: -1000}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -541, y: 0}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &368589040
@@ -1046,6 +1046,7 @@ GameObject:
   - component: {fileID: 1015769650}
   - component: {fileID: 1015769768}
   - component: {fileID: 1015769773}
+  - component: {fileID: 1015769804}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1066,11 +1067,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 280.28415, y: 37.870438}
+  scrollPos: {x: 341.15848, y: 19.34162}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 457
-  zoom: 0.69999975
+  zoom: 0.6699998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1078,9 +1079,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1015769734}
+  - {fileID: 1015770055}
   selectedCommands:
-  - {fileID: 1015769773}
+  - {fileID: 1015770054}
   variables: []
   description: 
   stepPause: 0
@@ -1135,7 +1136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 56.145798
     y: 71.5625
-    width: 141.4286
+    width: 138.35825
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1536,7 +1537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 265.75043
     y: 74.38437
-    width: 195.14291
+    width: 187.31348
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1599,7 +1600,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -386.9813
     y: 76.278404
-    width: 286.5715
+    width: 266.11948
     height: 40
   tint: {r: 0.16220188, g: 0.764151, b: 0.37442034, a: 1}
   useCustomTint: 1
@@ -1624,7 +1625,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -325.6644
     y: -31.542145
-    width: 224.85721
+    width: 213.58214
     height: 40
   tint: {r: 0.16220188, g: 0.764151, b: 0.37442034, a: 1}
   useCustomTint: 1
@@ -2910,7 +2911,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 583.5283
     y: 211.02962
-    width: 136.85718
+    width: 135.97018
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2959,7 +2960,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -551.798
     y: 3.2688599
-    width: 123.14288
+    width: 121.641815
     height: 40
   tint: {r: 0.16220188, g: 0.764151, b: 0.37442034, a: 1}
   useCustomTint: 1
@@ -3072,7 +3073,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 235.22876
     y: 311.30634
-    width: 204.28577
+    width: 194.47766
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3247,7 +3248,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 311.05087
     y: 211.55673
-    width: 142.57146
+    width: 140.7463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5439,7 +5440,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.64914
     y: 213.98883
-    width: 163.1429
+    width: 159.85078
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5489,6 +5490,7 @@ MonoBehaviour:
   - {fileID: 1015769739}
   - {fileID: 1015770036}
   - {fileID: 1015769735}
+  - {fileID: 1015769804}
   - {fileID: 1015769773}
   - {fileID: 1015769768}
 --- !u!114 &1015769735
@@ -6381,7 +6383,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1015769768
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6495,7 +6497,7 @@ MonoBehaviour:
   commentText: 
 --- !u!114 &1015769773
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7272,6 +7274,34 @@ MonoBehaviour:
   storyText: "Os m\xE9dicos n\xE3o acharam como os dois desmaiaram ainda."
   description: 
   character: {fileID: 1416903913}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1015769804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015769584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 603
+  indentLevel: 0
+  storyText: "Voc\xEA fpi um mal detetive, e chegou a um ponto de Game Over, mas n\xE3o
+    se preocupe, voc\xEA apenas recome\xE7ar\xE1 essa cena com uma vida a menos."
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -12537,14 +12567,14 @@ MonoBehaviour:
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
   offset: 0
-  fromPosition: {fileID: 1658680751}
+  fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 2
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!114 &1015770006
@@ -13374,7 +13404,7 @@ MonoBehaviour:
   _sceneName:
     stringRef: {fileID: 0}
     stringVal: 2.1 (O que fazer)
-  loadingImage: {fileID: 0}
+  loadingImage: {fileID: 2800000, guid: 4f4fc0815f4cdca44802ccd99cfc414f, type: 3}
   sceneNameOLD: 
 --- !u!114 &1015770055
 MonoBehaviour:
@@ -13392,7 +13422,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -47.426903
     y: 343.55826
-    width: 135.71432
+    width: 128.806
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13455,9 +13485,9 @@ RectTransform:
   m_Father: {fileID: 890947608}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -1000}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &1083688839
@@ -13729,9 +13759,9 @@ RectTransform:
   m_Father: {fileID: 890947608}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1300, y: -1000}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 1300, y: 0}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1401571876
@@ -13901,9 +13931,9 @@ RectTransform:
   m_Father: {fileID: 890947608}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1300, y: -1000}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -1300, y: 0}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1658680752
@@ -13975,9 +14005,9 @@ RectTransform:
   m_Father: {fileID: 890947608}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 609, y: -1000}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 609, y: 0}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1792465629
