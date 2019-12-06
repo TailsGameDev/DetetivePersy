@@ -1079,9 +1079,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1015770055}
+  - {fileID: 1015769655}
   selectedCommands:
-  - {fileID: 1015770054}
+  - {fileID: 1015769997}
   variables: []
   description: 
   stepPause: 0
@@ -1136,7 +1136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 56.145798
     y: 71.5625
-    width: 138.35825
+    width: 123.13435
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1537,7 +1537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 265.75043
     y: 74.38437
-    width: 187.31348
+    width: 166.41794
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1600,7 +1600,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -386.9813
     y: 76.278404
-    width: 266.11948
+    width: 233.58215
     height: 40
   tint: {r: 0.16220188, g: 0.764151, b: 0.37442034, a: 1}
   useCustomTint: 1
@@ -1625,7 +1625,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -325.6644
     y: -31.542145
-    width: 213.58214
+    width: 187.31348
     height: 40
   tint: {r: 0.16220188, g: 0.764151, b: 0.37442034, a: 1}
   useCustomTint: 1
@@ -2911,7 +2911,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 583.5283
     y: 211.02962
-    width: 135.97018
+    width: 124.62689
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2960,7 +2960,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -551.798
     y: 3.2688599
-    width: 121.641815
+    width: 120
     height: 40
   tint: {r: 0.16220188, g: 0.764151, b: 0.37442034, a: 1}
   useCustomTint: 1
@@ -3073,7 +3073,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 235.22876
     y: 311.30634
-    width: 194.47766
+    width: 172.38809
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3248,7 +3248,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 311.05087
     y: 211.55673
-    width: 140.7463
+    width: 126.11943
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5440,7 +5440,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.64914
     y: 213.98883
-    width: 159.85078
+    width: 141.0448
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12355,7 +12355,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1609983465}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: e0031bb7ff1502f4fb8d9e51655de4a1, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -13422,7 +13422,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -47.426903
     y: 343.55826
-    width: 128.806
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13813,11 +13813,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Persy Endkei
       objectReference: {fileID: 0}
-    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
-        type: 3}
-      propertyPath: portraitsFace
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3837975544112167882, guid: 7675d68b2b895d14e89545d682f7dc31,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13872,6 +13867,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3837975544112167885, guid: 7675d68b2b895d14e89545d682f7dc31,
+        type: 3}
+      propertyPath: portraitsFace
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7675d68b2b895d14e89545d682f7dc31, type: 3}
